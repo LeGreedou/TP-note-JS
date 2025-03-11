@@ -99,3 +99,9 @@ main nav {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.close-button:hover {
+    background-color: #12627a;
+    transition: 0.3s;
+    transform: scale(1.005);
+}
