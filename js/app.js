@@ -1,24 +1,10 @@
-import Home from './views/Home.js';
-import LegalNotice from './views/LegalNotice.js';
+import { loadDetail } from './views/detailView.js';
+import { loadListing } from './views/listingView.js';
 
-const routes = {
-    '/': Home,
-    '/legalnotice': LegalNotice
-    // '/articles': ,
-    // '/articles/:id': ,
-};
-
-const router = async () => {
-
-    const content = null || document.querySelector('#content');
-
-    console.log(location.pathname);
-
-    const current = new routes[location.pathname];
-
-    console.log(current);
-
-    content.innerHTML = await current.render();
+export function route(view, id = null) {
+    if (view === 'listing') loadListing();
+    if (view === 'detail' && id) loadDetail(id);
 }
 
-window.addEventListener('load', router);
+window.route = route;
+route('listing');

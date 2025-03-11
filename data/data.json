@@ -1,0 +1,152 @@
+{
+    "regions": [
+        {
+            "id": 1,
+            "nom": "Ionia"
+        },
+        {
+            "id": 2,
+            "nom": "Noxus"
+        },
+        {
+            "id": 3,
+            "nom": "Zaun"
+        },
+        {
+            "id": 4,
+            "nom": "Targon"
+        },
+        {
+            "id": 5,
+            "nom": "Piltover"
+        },
+        {
+            "id": 6,
+            "nom": "Îles Obscures"
+        },
+        {
+            "id": 7,
+            "nom": "Freljord"
+        },
+        {
+            "id": 8,
+            "nom": "Shurima"
+        },
+        {
+            "id": 9,
+            "nom": "Demacia"
+        },
+        {
+            "id": 10,
+            "nom": "Bandle City"
+        },
+        {
+            "id": 11,
+            "nom": "Bilgewater"
+        },
+        {
+            "id": 12,
+            "nom": "Runeterra"
+        }
+    ],
+    "personnages": [
+        {
+            "id": 1,
+            "nom": "Ahri",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+            "id_region": 1,
+            "role": "Mage, Assassin"
+        },
+        {
+            "id": 2,
+            "nom": "Darius",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+            "id_region": 2,
+            "role": "Fighter, Tank"
+        },
+        {
+            "id": 3,
+            "nom": "Jinx",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+            "id_region": 3,
+            "role": "Marksman"
+        },
+        {
+            "id": 4,
+            "nom": "Shen",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg",
+            "id_region": 1,
+            "role": "Tank, Support"
+        },
+        {
+            "id": 5,
+            "nom": "Leona",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg",
+            "id_region": 4,
+            "role": "Tank, Support"
+        },
+        {
+            "id": 6,
+            "nom": "Ezreal",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
+            "id_region": 5,
+            "role": "Marksman, Mage"
+        },
+        {
+            "id": 7,
+            "nom": "Viego",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg",
+            "id_region": 6,
+            "role": "Assassin, Fighter"
+        },
+        {
+            "id": 8,
+            "nom": "Ashe",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+            "id_region": 7,
+            "role": "Marksman, Support"
+        },
+        {
+            "id": 9,
+            "nom": "Malphite",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malphite_0.jpg",
+            "id_region": 8,
+            "role": "Tank, Fighter"
+        },
+        {
+            "id": 10,
+            "nom": "Ekko",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
+            "id_region": 3,
+            "role": "Assassin, Fighter"
+        },
+        {
+            "id": 11,
+            "nom": "Garen",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+            "id_region": 9,
+            "role": "Fighter, Tank"
+        },
+        {
+            "id": 12,
+            "nom": "Teemo",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
+            "id_region": 10,
+            "role": "Marksman, Assassin"
+        },
+        {
+            "id": 13,
+            "nom": "Miss Fortune",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MissFortune_0.jpg",
+            "id_region": 11,
+            "role": "Marksman"
+        },
+        {
+            "id": 14,
+            "nom": "Ryze",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg",
+            "id_region": 12,
+            "role": "Mage"
+        }
+    ]
+}
