@@ -7,7 +7,7 @@ export async function loadListing() {
     const details = document.getElementById('details');
     
     details.innerHTML = '';
-    app.innerHTML = '<h1>Liste des Personnages</h1>' + persos.map(p =>
+    app.innerHTML = '<h1>Liste des Personnages de League of Legends</h1>' + persos.map(p =>
         `<div class="horizontal-card" onclick="route('detail', ${p.id})">`
         + `<img src="${p.image}" alt="${p.nom}">`
         + `<h2>${p.nom}</h2>`
