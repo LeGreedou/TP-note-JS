@@ -20,7 +20,7 @@
             <button onclick="route('search');" class="btn-search">
                 <i class="material-symbols-rounded">search</i>
             </button>
-            <input type="text" id="recherche" class="input-search" placeholder="Rechercher un personnage...">
+            <input type="text" id="recherche" class="input-search" placeholder="Rechercher un personnage..." onkeydown="if(event.key === 'Enter') route('search');">
         </div>
     </header>
     <main>
