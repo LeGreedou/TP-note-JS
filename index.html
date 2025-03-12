@@ -6,7 +6,6 @@
     <title>Gestion de personnages</title>
     
     <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
 
     <script type="module" src="js/config.js"></script>
@@ -17,6 +16,12 @@
         <nav>
             <button onclick="route('listing');" id="listing-button">Personnages</button>
         </nav>
+        <div class="search-box">
+            <button onclick="route('search');" class="btn-search">
+                <i class="material-symbols-rounded">search</i>
+            </button>
+            <input type="text" id="recherche" class="input-search" placeholder="Rechercher un personnage...">
+        </div>
     </header>
     <main>
         <nav id="app"></nav>
