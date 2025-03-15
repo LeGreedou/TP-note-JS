@@ -10,18 +10,19 @@ export async function loadDetail(id) {
     + `<img src="${perso.image}">`
     + "<section>"
     + `<h1>${perso.nom}</h1>`
-    + `<span id='smash-button' class='material-symbols-rounded'>favorite</span>`
-    + `<span id='pass-button' class='material-symbols-rounded'>prompt_suggestion</span>`
+    + `<div class="button-container">`
+    + `<button id="smash-button" type="button">Smash<span id="smash-logo" class='material-symbols-rounded'>favorite</span></button>`
+    + `<button id="pass-button" type="button">Pass<span id="pass-logo" class='material-symbols-rounded'>do_not_disturb_on</span></button></div>`
     + `<p><strong>Region:</strong> ${(await getRegion(perso.id_region)).nom}</p>`
     + `<p><strong>Roles:</strong> ${await perso.role}</p>`
     + "</section>";
 
-    if (isSmashable(perso.id)) document.getElementById("smash-button").classList.add("filled");
+    if (isSmashable(perso.id)) document.getElementById("smash-logo").classList.add("filled");
     document.getElementById('smash-button').addEventListener('click', () => {
         toggleSmash(perso.id);
     });
 
-    if (isPassable(perso.id)) document.getElementById("pass-button").classList.add("filled");
+    if (isPassable(perso.id)) document.getElementById("pass-logo").classList.add("filled");
     document.getElementById('pass-button').addEventListener('click', () => {
         togglePass(perso.id);
     });

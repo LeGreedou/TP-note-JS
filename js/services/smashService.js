@@ -28,14 +28,14 @@ export function toggleSmash(id) {
     if (getSmash().find(sm => sm.id === id)) {
         removeSmash(id);
 
-        document.getElementById("smash-button").classList.remove("filled")
+        document.getElementById("smash-logo").classList.remove("filled")
         
         if (document.getElementById(id)) {
             document.getElementById(id).remove();
             hideDetails()
         }
     } else {
-        document.getElementById("smash-button").classList.add("filled");
+        document.getElementById("smash-logo").classList.add("filled");
         addSmash(id);
     }
 }

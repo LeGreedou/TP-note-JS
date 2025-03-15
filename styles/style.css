@@ -171,8 +171,37 @@ main nav {
     border-bottom:1px solid rgba(255,255,255,.5);
 }
 
-#smash-button, #pass-button{
+#smash-logo, #pass-logo{
+    cursor: pointer²;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#smash-button, #pass-button {
     cursor: pointer;
+    background-color: #138aaf;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Saira", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+#smash-logo, #pass-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
 }
 
 /* Material icons */

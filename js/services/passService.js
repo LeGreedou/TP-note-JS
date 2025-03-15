@@ -28,14 +28,14 @@ export function togglePass(id) {
     if (getPass().find(ps => ps.id === id)) {
         removePass(id);
 
-        document.getElementById("pass-button").classList.remove("filled")
+        document.getElementById("pass-logo").classList.remove("filled")
         
         if (document.getElementById(id)) {
             document.getElementById(id).remove();
             hideDetails()
         }
     } else {
-        document.getElementById("pass-button").classList.add("filled");
+        document.getElementById("pass-logo").classList.add("filled");
         addPass(id);
     }
 }
