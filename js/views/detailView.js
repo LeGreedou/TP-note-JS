@@ -8,7 +8,7 @@ export async function loadDetail(id) {
     document.getElementById("details").innerHTML = 
     `<span onclick="route('listing');" class='close-button material-symbols-rounded'>close</span>`
     + `<img src="${perso.image}">`
-    + "<section>"
+    + "<section id='infos'>"
     + `<h1>${perso.nom}</h1>`
     + `<div class="button-container">`
     + `<button id="smash-button" type="button">Smash<span id="smash-logo" class='material-symbols-rounded'>favorite</span></button>`

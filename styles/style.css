@@ -2,13 +2,13 @@
 
 body {
     margin: 0px;
-    background-color: #084c58;
+    background: linear-gradient(90deg, #0A1428, #133769, #0A1428);
     color: white;
     font-family: "Saira", sans-serif
 }
 
 header {
-    background-color: #09878b;
+    background: linear-gradient(#096F00, #138b08);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,9 +28,8 @@ header button {
     transition: 0.3s;
 }
 
-header #listing-button:hover {
-    color: #55ebde;
-    background-color: #207a91;
+header button:hover {
+    background-color: #096F00;
 }
 
 main {
@@ -42,7 +41,7 @@ main nav {
 }
 
 #details {
-    background-color: #10a5b9;
+    background-color: #096F00;
     border-radius: 10px;
     margin: 20px;
     margin-top: 98px;
@@ -50,6 +49,10 @@ main nav {
     position: sticky;
     top: 20px;
     overflow: hidden;
+}
+
+#infos {
+    background: linear-gradient(#096F00, #138b08);   
 }
 
 #details img {
@@ -78,7 +81,7 @@ main nav {
 }
 
 .horizontal-card {
-    background-color: #067179;
+    background: linear-gradient(#025477, #08688e);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -106,14 +109,14 @@ main nav {
     position: absolute;
     top: 5px;
     right: 5px;
-    background-color: #0a3c4b;
+    background-color: #096F00;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .close-button:hover {
-    background-color: #12627a;
+    background-color: #1dbd0f;
     transition: 0.3s;
     transform: scale(1.005);
 }
@@ -172,7 +175,7 @@ main nav {
 }
 
 #smash-logo, #pass-logo{
-    cursor: pointer²;
+    cursor: pointer;
 }
 
 .button-container {
@@ -186,7 +189,8 @@ main nav {
 
 #smash-button, #pass-button {
     cursor: pointer;
-    background-color: #138aaf;
+    background-color: #1dbd0f;
+    display: flex;
     padding: 8px 12px;
     border-radius: 5px;
     display: flex;
@@ -196,6 +200,11 @@ main nav {
     font-size: 16px;
     font-weight: 600;
     color: white;
+    border: 2px solid white;
+}
+
+#smash-button:hover, #pass-button:hover {
+    background-color: #105f09;
 }
 
 #smash-logo, #pass-logo {
