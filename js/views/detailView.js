@@ -4,6 +4,7 @@ import { isPassable, togglePass } from '../services/passService.js';
 
 export async function loadDetail(id) {
     let perso = await getPersonnage(id);
+    let region = await getRegion(perso.id_region);
 
     document.getElementById("details").innerHTML = 
     `<span onclick="route('listing');" class='close-button material-symbols-rounded'>close</span>`
@@ -17,6 +18,12 @@ export async function loadDetail(id) {
     + `<p><strong>Roles:</strong> ${await perso.role}</p>`
     + "</section>";
 
+    document.getElementById("infos").style.background = region.background;
+    document.getElementById("details").style.background = region.background;
+    document.getElementById("smash-button").style.background = region.couleur;
+    document.getElementById("pass-button").style.background = region.couleur;
+
+    
     if (isSmashable(perso.id)) document.getElementById("smash-logo").classList.add("filled");
     document.getElementById('smash-button').addEventListener('click', () => {
         toggleSmash(perso.id);
@@ -26,6 +33,8 @@ export async function loadDetail(id) {
     document.getElementById('pass-button').addEventListener('click', () => {
         togglePass(perso.id);
     });
+
+
 }
 
 export async function hideDetails() {

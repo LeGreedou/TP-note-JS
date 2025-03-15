@@ -62,7 +62,7 @@
             "id": 1,
             "nom": "Aatrox",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
-            "id_region": 2,
+            "id_region": 8,
             "role": "Combattant"
           },
           {
@@ -83,14 +83,14 @@
             "id": 4,
             "nom": "Akshan",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_0.jpg",
-            "id_region": 9,
+            "id_region": 8,
             "role": "Tireur"
           },
           {
             "id": 5,
             "nom": "Alistar",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
-            "id_region": 11,
+            "id_region": 9,
             "role": "Tank, Support"
           },
           {
@@ -111,7 +111,7 @@
             "id": 8,
             "nom": "Annie",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
-            "id_region": 9,
+            "id_region": 2,
             "role": "Mage"
           },
           {
@@ -272,7 +272,7 @@
             "id": 31,
             "nom": "Fiddlesticks",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg",
-            "id_region": 6,
+            "id_region": 12,
             "role": "Mage, Support"
           },
           {
@@ -321,7 +321,7 @@
             "id": 38,
             "nom": "Gragas",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gragas_0.jpg",
-            "id_region": 11,
+            "id_region": 7,
             "role": "Mage, Tank"
           },
           {
@@ -370,14 +370,14 @@
             "id": 45,
             "nom": "Ivern",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_0.jpg",
-            "id_region": 12,
+            "id_region": 1,
             "role": "Support, Mage"
           },
           {
             "id": 46,
             "nom": "Janna",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Janna_0.jpg",
-            "id_region": 12,
+            "id_region": 3,
             "role": "Support, Mage"
           },
           {
@@ -391,7 +391,7 @@
             "id": 48,
             "nom": "Jax",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jax_0.jpg",
-            "id_region": 12,
+            "id_region": 8,
             "role": "Combattant, Assassin"
           },
           {
@@ -538,7 +538,7 @@
             "id": 69,
             "nom": "Lillia",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg",
-            "id_region": 12,
+            "id_region": 1,
             "role": "Combattant, Mage"
           },
           {
@@ -650,14 +650,14 @@
             "id": 85,
             "nom": "Nautilus",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_0.jpg",
-            "id_region": 6,
+            "id_region": 11,
             "role": "Tank, Support"
           },
           {
             "id": 86,
             "nom": "Neeko",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Neeko_0.jpg",
-            "id_region": 12,
+            "id_region": 13,
             "role": "Mage, Support"
           },
           {
@@ -790,7 +790,7 @@
             "id": 105,
             "nom": "Rengar",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg",
-            "id_region": 12,
+            "id_region": 13,
             "role": "Assassin"
           },
           {
@@ -832,7 +832,7 @@
             "id": 111,
             "nom": "Senna",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg",
-            "id_region": 11,
+            "id_region": 12,
             "role": "Support, Tireur"
           },
           {
@@ -958,7 +958,7 @@
             "id": 129,
             "nom": "Taric",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taric_0.jpg",
-            "id_region": 9,
+            "id_region": 4,
             "role": "Support, Tank"
           },
           {
@@ -1028,7 +1028,7 @@
             "id": 139,
             "nom": "Varus",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg",
-            "id_region": 6,
+            "id_region": 1,
             "role": "Tireur, Mage"
           },
           {
@@ -1189,7 +1189,7 @@
             "id": 162,
             "nom": "Zilean",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zilean_0.jpg",
-            "id_region": 12,
+            "id_region": 8,
             "role": "Support, Mage"
           },
           {
