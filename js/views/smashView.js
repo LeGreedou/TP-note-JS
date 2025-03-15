@@ -10,7 +10,7 @@ export async function loadSmash(hideDetails = true) {
         details.innerHTML = '';
     }
 
-    app.innerHTML = '<h1>Liste des Personnages Smash</h1>' + smash.map(p =>
+    app.innerHTML = '<h1>Liste des Personnages Smashed</h1>' + smash.map(p =>
         `<div id='${p.id}' class="horizontal-card" onclick="route('detail', ${p.id})">`
         + `<img src="${p.image}" alt="${p.nom}">`
         + `<h2>${p.nom}</h2>`
