@@ -1,16 +1,39 @@
 import { loadDetail } from './views/detailView.js';
+import { loadSmashPass, smashPersonnage, passPersonnage, resetSmashPass } from './views/smashPassView.js';
 import { loadListing } from './views/listingView.js';
 import { loadListingSearch } from './views/listingViewSearch.js';
 import { loadPass } from './views/passView.js';
 import { loadSmash } from './views/smashView.js';
 
-export function route(view, id = null) {
-    if (view === 'listing') loadListing();
-    if (view === 'detail' && id) loadDetail(id);
-    if (view === 'search') loadListingSearch();
-    if (view === 'smash') loadSmash();
-    if (view === 'pass') loadPass();
+// Ajoutez ces fonctions à la portée globale
+window.smashPersonnage = smashPersonnage;
+window.passPersonnage = passPersonnage;
+window.resetSmashPass = resetSmashPass;
+
+// Dans votre fonction de routage, ajoutez ces cases
+function route(page, id) {
+    switch(page) {
+        case 'listing':
+            loadListing();
+            break
+        case 'detail':
+            loadDetail(id)
+            break
+        case 'search':
+            loadListingSearch()
+            break
+        case 'smash':
+            loadSmash()
+            break
+        case 'smashorpass':
+            loadSmashPass();
+            break;
+        case 'pass':
+            loadPass();
+            break;
+    }
 }
 
+// Rendez la fonction route disponible globalement
 window.route = route;
-route('listing');
+route("listing")
