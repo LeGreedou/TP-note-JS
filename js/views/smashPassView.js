@@ -28,7 +28,7 @@ function displayCurrentPersonnage() {
                 <h1>Smash or Pass</h1>
                 <div class="character-card">
                     <img src="${personnage.image}" alt="${personnage.nom}">
-                    <h2>${personnage.nom}</h2>
+                    <h2>${personnage.nom} ${currentIndex}/${personnages.length}</h2>
                 </div>
                 <div class="action-buttons">
                     <button onclick="smashPersonnage(${personnage.id})" class="smash-button">Smash</button>
