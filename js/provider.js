@@ -28,3 +28,10 @@ export async function getRegion(id) {
     return new Region(data.id, data.nom);
 }
 
+export async function getSearch(search) {
+    const response = await fetch(`${ENDPOINT}/personnages?nom_like=${search}`)
+    const data = await response.json();
+    const characters = data.map(c => new Champion(c.id, c.nom, c.image, c.region, c.role));
+    return characters;
+}
+
