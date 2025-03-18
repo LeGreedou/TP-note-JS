@@ -368,3 +368,56 @@ nav#app .back-button:hover {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
 
+/* Style pour la pagination */
+.paginationjs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paginationjs.paginationjs .paginationjs-pages li {
+    border-color: #12295b !important;
+}
+
+.paginationjs.paginationjs .paginationjs-pages li>a {
+    color: #12295b !important;
+}
+
+.paginationjs.paginationjs .paginationjs-pages li>a:hover {
+    background: #123a71 !important;
+    color: #fff !important;
+}
+
+.paginationjs.paginationjs .paginationjs-pages li.active>a {
+    background: #12295b !important;
+    color: #fff !important;
+}
+
+.paginationjs.paginationjs .paginationjs-go-button>input[type=button] {
+    background: #12295b !important;
+    border-color: #12295b !important;
+    color: #fff !important;
+}
+
+.paginationjs.paginationjs .paginationjs-go-button>input[type=button]:hover {
+    background-color: #123a71 !important;
+}
+
+/* Style de la barre de progression */
+.progress-bar-container {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+}

@@ -22,13 +22,17 @@ function displayCurrentPersonnage() {
     // Vérifier s'il reste des personnages
     if (currentIndex < personnages.length) {
         const personnage = personnages[currentIndex];
+        const progress = ((currentIndex + 1) / personnages.length) * 100;
         
         app.innerHTML = `
             <div class="smash-pass-container">
                 <h1>Smash or Pass</h1>
                 <div class="character-card">
                     <img src="${personnage.image}" alt="${personnage.nom}">
-                    <h2>${personnage.nom} ${currentIndex}/${personnages.length}</h2>
+                    <h2>${personnage.nom}</h2>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: ${progress}%;"></div>
                 </div>
                 <div class="action-buttons">
                     <button onclick="smashPersonnage(${personnage.id})" class="smash-button">Smash</button>
