@@ -403,3 +403,19 @@ nav#app .back-button:hover {
     background-color: #123a71 !important;
 }
 
+/* Style de la barre de progression */
+.progress-bar-container {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+}
