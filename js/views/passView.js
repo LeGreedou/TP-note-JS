@@ -14,7 +14,7 @@ export async function loadPass(hideDetails = true) {
     app.innerHTML = `
     <div class="header">
         <h1>Liste des Personnages Passed</h1>
-        <p>Vous avez smashé ${pass.length} personnages</p>
+        <p>Vous avez passé ${pass.length} personnages</p>
         <button onclick="reinitialiserPass()" id="reset">Réinitialiser</button>
         <div id="perso-list"></div><div id="pagination-container"></div>
     </div>`;
