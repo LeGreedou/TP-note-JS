@@ -2,13 +2,15 @@
 
 body {
     margin: 0px;
-    background: linear-gradient(90deg, #12295b, #123a71, #12295b);
+    background-color: #08032e;
     color: white;
     font-family: "Saira", sans-serif
 }
 
 header {
-    background: linear-gradient(#00066f, #130d94);
+    background-color:#0b053c;
+    border-bottom: 4px solid rgb(101, 94, 12);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +78,7 @@ main nav {
 }
 
 .horizontal-card {
-    background: linear-gradient(#120b8c, #122e8e);
+    background: linear-gradient(#020c3a, #030f45, #020c3a);
     display: flex;
     flex-direction: row;
     align-items: center;
