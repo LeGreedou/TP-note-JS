@@ -452,3 +452,24 @@ nav#app .back-button:hover {
     transform: scale(0.95); 
 }
 
+#note {
+    cursor: pointer;
+    display: flex;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Playfair", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    transition: transform 0.2s ease, filter 0.2s ease;
+    border: none;
+}
+
+#note:hover {
+    transform: scale(1.02); 
+    filter: brightness(0.90);
+    outline: 2px solid white;
+}
