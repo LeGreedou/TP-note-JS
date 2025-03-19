@@ -55,6 +55,21 @@ function displayCurrentPersonnage() {
     }
 }
 
+// Gestion des touches du clavier
+document.addEventListener('keydown', (event) => {
+    if (currentIndex < personnages.length) {
+        const personnage = personnages[currentIndex];
+
+        if (event.key === 'ArrowLeft') {
+            smashPersonnage(personnage.id);
+        } else if (event.key === 'ArrowRight') {
+            passPersonnage(personnage.id);
+        }
+    }
+});
+
+
+
 // Fonction pour le Smash
 export function smashPersonnage(id) {
     addSmash(id);
