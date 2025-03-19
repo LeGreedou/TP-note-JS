@@ -1,6 +1,6 @@
 import { getPersonnage } from '../provider.js';
 import { hideDetails } from '../views/detailView.js';
-import { removePass } from './passService.js';
+import { togglePass, isPassable } from './passService.js';
 
 export async function addSmash(id) {
     const smash = JSON.parse(localStorage.getItem('smash')) || [];
@@ -8,7 +8,9 @@ export async function addSmash(id) {
 
     if (!smash.find(sm => sm.id === personnage.id)) {
         smash.push(personnage);
-        await removePass(id);
+        if (await isPassable(id)){
+            await togglePass(id);
+        }
         localStorage.setItem('smash', JSON.stringify(smash));
     }
 }

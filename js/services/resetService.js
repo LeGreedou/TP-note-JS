@@ -7,7 +7,7 @@ export function clearSmash() {
         smashList.innerHTML = `
             <div class="header">
                 <h1>Liste des Personnages Smashed</h1>
-                <button id="resetButton" class="reset">Réinitialiser</button>
+                <button id="reset">Réinitialiser</button>
             </div>
             <p>Aucun personnage dans la liste.</p>
         `;
@@ -25,7 +25,7 @@ export function clearPass() {
         passList.innerHTML = `
             <div class="header">
                 <h1>Liste des Personnages Passed</h1>
-                <button id="resetButton" class="reset">Réinitialiser</button>
+                <button id="reset">Réinitialiser</button>
             </div>
             <p>Aucun personnage dans la liste.</p>
         `;

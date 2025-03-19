@@ -14,7 +14,7 @@ export async function loadSmash(hideDetails = true) {
     app.innerHTML = `
     <div class="header">
         <h1>Liste des Personnages Smashed</h1>
-        <p>Vous avez smashé ${smash.length} personnages</p>
+        <p>Vous avez smashé ${smash.length} personnage(s)</p>
         <button onclick="reinitialiserSmash()" id="reset">Réinitialiser</button>
         <div id="perso-list"></div><div id="pagination-container"></div>
     </div>`;
