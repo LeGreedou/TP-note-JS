@@ -28,11 +28,15 @@ function displayCurrentPersonnage() {
             <div class="smash-pass-container">
                 <h1>Smash or Pass</h1>
                 <div class="character-card">
-                    <img src="${personnage.image}" alt="${personnage.nom}">
-                    <h2>${personnage.nom}</h2>
-                </div>
-                <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: ${progress}%;"></div>
+                    <section>    
+                        <img src="${personnage.image}" alt="${personnage.nom}">
+                        <h2>${personnage.nom}</h2>
+                    </section>
+                    <section> 
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="width: ${progress}%;"></div>
+                        </div>
+                    </section>
                 </div>
                 <div class="action-buttons">
                     <button onclick="smashPersonnage(${personnage.id})" class="smash-button">Smash</button>

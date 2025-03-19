@@ -129,7 +129,9 @@ main nav {
     width: 350px;
     border-style: none;
     padding: 10px;
-    font-size: 22px;
+    font-size: 18px;
+    font-family: "Playfair";
+    font-weight: 100;
     letter-spacing: 1px;
     outline: none;
     padding-right: 40px;
@@ -417,38 +419,36 @@ nav#app .back-button:hover {
 .progress-bar-container {
     width: 100%;
     height: 10px;
-    background-color: #ddd;
-    border-radius: 5px;
-    margin: 10px 0;
+    background-color: #4d4c4c;
     overflow: hidden;
 }
 
 .progress-bar {
     height: 100%;
-    background-color: #4caf50;
+    background-color: rgb(125, 102, 9);
     width: 0%;
     transition: width 0.3s ease-in-out;
 }
 
 #reset {
-    background-color: #ff4d4d; /* Rouge clair pour alerter */
-    color: white; /* Texte blanc */
-    border: none; /* Pas de bordure */
-    padding: 10px 20px; /* Espacement */
+    background-color: #ff4d4d; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
     margin-bottom: 20px;
-    font-size: 16px; /* Taille du texte */
-    border-radius: 5px; /* Coins arrondis */
-    cursor: pointer; /* Curseur interactif */
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
     transition: background-color 0.3s, transform 0.2s;
 }
 
 #reset:hover {
-    background-color: #cc0000; /* Rouge plus foncé au survol */
-    transform: scale(1.05); /* Légère augmentation */
+    background-color: #cc0000;
+    transform: scale(1.05); 
 }
 
 #reset:active {
-    background-color: #a30000; /* Rouge encore plus foncé au clic */
-    transform: scale(0.95); /* Effet d'appui */
+    background-color: #a30000; 
+    transform: scale(0.95); 
 }
 
