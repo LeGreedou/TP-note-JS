@@ -23,6 +23,8 @@ export async function loadDetail(id) {
     document.getElementById("smash-button").style.background = region.couleur;
     document.getElementById("pass-button").style.background = region.couleur;
 
+
+
     
     if (isSmashable(perso.id)) document.getElementById("smash-logo").classList.add("filled");
     document.getElementById('smash-button').addEventListener('click', () => {

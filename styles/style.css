@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,400..900;1,400..900&display=swap');
 
 body {
     margin: 0px;
     background-color: #08032e;
-    color: white;
-    font-family: "Saira", sans-serif
+    color: rgb(229, 226, 226);
+    font-family: "Playfair", sans-serif;
+    font-size : 20px; 
 }
 
 header {
     background-color:#0b053c;
-    border-bottom: 4px solid rgb(101, 94, 12);
-
+    border-bottom: 4px solid rgb(125, 102, 9);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,10 +20,10 @@ header {
 header button {
     background-color: transparent;
     border: none;
-    color: #fdfdfd;
+    color: rgb(229, 226, 226);
     height: 60px;
-    font-size: 20px;
-    font-family: "Saira", sans-serif;
+    font-size: 25px;
+    font-family: "Playfair", sans-serif;
     font-weight: 600;
     padding: 0px 20px;
     cursor: pointer;
@@ -43,6 +43,7 @@ main nav {
 }
 
 #details {
+    border-radius: 5px;
     margin: 20px;
     margin-top: 98px;
     height: fit-content;
@@ -67,7 +68,7 @@ main nav {
 
 
 #details section h1 {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -81,12 +82,13 @@ main nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 10px;
     max-height: 80px;
     cursor: pointer;
     transition: 0.3s;
     outline: 2px solid transparent;
+    font-size: 20px;
 }
 
 .horizontal-card:hover {
@@ -125,16 +127,17 @@ main nav {
     width: 350px;
     border-style: none;
     padding: 10px;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 1px;
     outline: none;
     padding-right: 40px;
-    color:#fff;
+    color:rgb(229, 226, 226);
 }
 
 .input-search::placeholder{
-    color:rgba(255, 255, 255, 0.7);
+    color:rgb(229, 226, 226);
     font-size: 18px;
+    font-family: "Playfair";
     font-weight: 100;
 }
 
@@ -183,17 +186,22 @@ main nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Saira", sans-serif;
-    font-size: 16px;
+    font-family: "Playfair", sans-serif;
+    font-size: 20px;
     font-weight: 600;
-    color: white;
-    border: 2px solid white;
+    color: rgb(255, 255, 255);
     transition: transform 0.2s ease, filter 0.2s ease;
+    border: none;
 }
 
 #smash-button:hover, #pass-button:hover {
     transform: scale(1.02); 
-    filter: brightness(0.8);
+    filter: brightness(0.90);
+    outline: 2px solid white;
+}
+
+#infos {
+    color: rgb(255, 255, 255);
 }
 
 #smash-logo, #pass-logo {
@@ -221,7 +229,7 @@ main nav {
     font-family: 'Material Symbols Rounded';
     font-weight: normal;
     font-style: normal;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -271,9 +279,9 @@ nav#app .character-card img {
 
 /* Style pour le titre dans la carte du personnage */
 nav#app .character-card h2 {
-    font-size: 24px;
+    font-size: 30px;
     margin: 15px 0;
-    color: #fff;
+    color: rgb(229, 226, 226);
 }
 
 /* Style pour les boutons d'action spécifiques à Smash or Pass */
@@ -292,7 +300,7 @@ nav#app .pass-button {
     border: 2px solid white;
     padding: 10px 10px;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -332,7 +340,7 @@ nav#app .back-button {
     padding: 8px 8px;
     border: none;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -345,7 +353,7 @@ nav#app .back-button {
 /* Style pour le bouton Recommencer */
 nav#app .reset-button {
     background-color: rgb(33, 150, 243);
-    color: white;
+    color: rgb(229, 226, 226);
 }
 
 nav#app .reset-button:hover {
@@ -357,7 +365,7 @@ nav#app .reset-button:hover {
 /* Style pour le bouton Retour à la liste */
 nav#app .back-button {
     background-color: rgb(96, 125, 139);
-    color: white;
+    color: rgb(229, 226, 226);
 }
 
 nav#app .back-button:hover {
@@ -385,18 +393,18 @@ nav#app .back-button:hover {
 
 .paginationjs.paginationjs .paginationjs-pages li>a:hover {
     background: #123a71 !important;
-    color: #fff !important;
+    color: rgb(229, 226, 226) !important;
 }
 
 .paginationjs.paginationjs .paginationjs-pages li.active>a {
     background: #12295b !important;
-    color: #fff !important;
+    color: rgb(229, 226, 226) !important;
 }
 
 .paginationjs.paginationjs .paginationjs-go-button>input[type=button] {
     background: #12295b !important;
     border-color: #12295b !important;
-    color: #fff !important;
+    color: rgb(229, 226, 226) !important;
 }
 
 .paginationjs.paginationjs .paginationjs-go-button>input[type=button]:hover {
