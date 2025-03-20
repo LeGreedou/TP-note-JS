@@ -329,91 +329,51 @@ nav#app .character-card h2 {
 /* Style pour les boutons d'action spécifiques à Smash or Pass */
 nav#app .action-buttons {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 300px;
+    justify-content: center; /* Centre les boutons */
+    gap: 30px; /* Espace plus grand entre les boutons */
     margin-top: 20px;
-    gap : 20px;
 }
 
-/* Style pour les boutons spécifiques à Smash or Pass */
-nav#app .smash-button, 
-nav#app .pass-button {
-    border: 2px solid white;
-    padding: 10px 10px;
-    border-radius: 8px;
-    font-size: 24px;
+nav#app .smash-button, nav#app .pass-button, nav#app .reset-button, nav#app .back-button {
+    background: linear-gradient(to bottom, #1e1e1e, #2e2e2e); /* Fond sombre */
+    color: #d4c094; /* Couleur dorée */
+    border: 2px solid #d4c094; /* Bordure dorée */
+    padding: 10px 20px;
+    font-size: 16px;
     font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-/* Style spécifique pour le bouton Smash */
-nav#app .smash-button {
-    background-color: rgb(33, 178, 204);
-    color: #000;
-}
-
-nav#app .smash-button:hover {
-    background-color: rgb(37, 243, 229);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
-}
-
-/* Style spécifique pour le bouton Pass */
-nav#app .pass-button {
-    background-color: rgb(33, 178, 204);
-    color: #000;
-}
-
-nav#app .pass-button:hover {
-    background-color: rgb(37, 243, 229);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Style pour les boutons de fin */
 nav#app .reset-button,
 nav#app .back-button {
-    text-align: center;
-    padding: 8px 8px;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
+    background: linear-gradient(to bottom, #1e1e1e, #2e2e2e);
+    color: #d4c094;
+    border: 2px solid #d4c094;
+    padding: 12px 24px; /* Légèrement plus grand */
+    font-size: 18px; /* Texte plus visible */
     font-weight: bold;
+    text-transform: uppercase;
     cursor: pointer;
     transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-    min-width: 150px;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    min-width: 180px; /* Largeur minimale pour uniformiser */
+    text-align: center;
 }
 
-/* Style pour le bouton Recommencer */
-nav#app .reset-button {
-    background-color: rgb(33, 150, 243);
-    color: rgb(229, 226, 226);
+nav#app .smash-button:hover, nav#app .pass-button:hover, nav#app .reset-button:hover, nav#app .back-button:hover {
+    filter: brightness(1.5);
 }
 
-nav#app .reset-button:hover {
-    background-color: rgb(63, 170, 255);
-    transform: translateY(-3px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
-}
-
-/* Style pour le bouton Retour à la liste */
-nav#app .back-button {
-    background-color: rgb(96, 125, 139);
-    color: rgb(229, 226, 226);
-}
-
-nav#app .back-button:hover {
-    background-color: rgb(116, 145, 159);
-    transform: translateY(-3px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+nav#app .reset-button:active,
+nav#app .back-button:active {
+    transform: scale(0.95); /* Effet de clic */
 }
 
 /* Style pour la pagination */
