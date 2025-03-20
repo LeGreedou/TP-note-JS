@@ -7,6 +7,9 @@ export async function loadDetail(id) {
     let perso = await getPersonnage(id);
     let region = await getRegion(perso.id_region);
 
+    document.getElementById("app").classList.remove("details-inactive")
+    document.getElementById("app").classList.add("details-active")
+
     document.getElementById("details").innerHTML = 
     `<span onclick="route('listing');" class='close-button material-symbols-rounded'>close</span>`
     + `<img src="${perso.image}">`
@@ -49,4 +52,6 @@ export async function loadDetail(id) {
 
 export async function hideDetails() {
     document.getElementById('details').innerHTML = '';
+    document.getElementById("app").classList.add("details-inactive")
+    document.getElementById("app").classList.remove("details-active")
 }

@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 body {
     margin: 0px;
     background-color: #08032e;
     color: rgb(229, 226, 226);
-    font-family: "Playfair", sans-serif;
+    font-family: "Merriweather", sans-serif;
     font-size : 20px; 
 }
 
 header {
     background-color:#0b053c;
-    border-bottom: 4px solid rgb(125, 102, 9);
+    border-bottom: 4px solid #d6bb7f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,10 +20,10 @@ header {
 header button {
     background-color: transparent;
     border: none;
-    color: rgb(229, 226, 226);
     height: 60px;
-    font-size: 25px;
-    font-family: "Playfair", sans-serif;
+    color: #d4c094;
+    font-size: 20px;
+    font-family: "Merriweather", sans-serif;
     font-weight: 600;
     padding: 0px 20px;
     cursor: pointer;
@@ -36,13 +36,15 @@ header button:hover {
 
 main {
     display: flex;
+    width: 100%;
 }
 
-main nav {
-    flex-grow: 1;
+nav#app {
+    flex: 1;
 }
 
 #details {
+    max-width: 40vw;
     border-radius: 5px;
     margin: 20px;
     margin-top: 98px;
@@ -73,24 +75,60 @@ main nav {
     margin-bottom: 10px;
 }
 
-#app {
-    padding: 20px;
+.details-active{
+    max-width: 70vw;
+    flex-grow: 1;
 }
 
+.details-inactive{
+    margin-left: 10px;
+    max-width: 100vw;
+}
 
+#perso-list {
+    color: #dcc289;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Supprime tout espace entre les cartes */
+    width: 100%;
+}
 
 .horizontal-card {
     background: linear-gradient(#020c3a, #030f45, #020c3a);
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 5px;
-    margin-top: 10px;
-    max-height: 80px;
+    justify-content: flex-start;
+    border-radius: 8px;
+    margin: 0 0 5px 0;
+    max-height: 120px;
+    width: 48%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: outline 0.3s ease, transform 0.2s ease;
     outline: 2px solid transparent;
-    font-size: 20px;
+    position: relative;
+}
+
+.horizontal-card .image-container {
+    position: relative;
+    height: 120px;
+    width: 220px;
+    overflow: hidden;
+}
+
+.horizontal-card .image-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    background: linear-gradient(to right, transparent, #030f45);
+    pointer-events: none;
 }
 
 .horizontal-card:hover {
@@ -98,11 +136,11 @@ main nav {
 }
 
 .horizontal-card img {
-    border-radius: 10px 0px 0px 10px;
-    height: 80px;
-    width: 150px;
+    height: 120px;
+    width: auto;
+    min-width: 220px;
     object-fit: cover;
-    margin-right: 10px;
+    display: block;
 }
 
 .close-button {
@@ -130,7 +168,7 @@ main nav {
     border-style: none;
     padding: 10px;
     font-size: 18px;
-    font-family: "Playfair";
+    font-family: "Merriweather";
     font-weight: 100;
     letter-spacing: 1px;
     outline: none;
@@ -141,7 +179,7 @@ main nav {
 .input-search::placeholder{
     color:rgb(229, 226, 226);
     font-size: 18px;
-    font-family: "Playfair";
+    font-family: "Merriweather";
     font-weight: 100;
 }
 
@@ -190,7 +228,7 @@ main nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Playfair", sans-serif;
+    font-family: "Merriweather", sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: rgb(255, 255, 255);
@@ -291,91 +329,33 @@ nav#app .character-card h2 {
 /* Style pour les boutons d'action spécifiques à Smash or Pass */
 nav#app .action-buttons {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 300px;
+    justify-content: center; /* Centre les boutons */
+    gap: 30px; /* Espace plus grand entre les boutons */
     margin-top: 20px;
-    gap : 20px;
 }
 
-/* Style pour les boutons spécifiques à Smash or Pass */
-nav#app .smash-button, 
-nav#app .pass-button {
-    border: 2px solid white;
-    padding: 10px 10px;
-    border-radius: 8px;
-    font-size: 24px;
+nav#app .smash-button, nav#app .pass-button, nav#app .reset-button, nav#app .back-button {
+    background: linear-gradient(to bottom, #1e1e1e, #2e2e2e); /* Fond sombre */
+    color: #d4c094; /* Couleur dorée */
+    border: 2px solid #d4c094; /* Bordure dorée */
+    padding: 10px 20px;
+    font-size: 16px;
     font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-/* Style spécifique pour le bouton Smash */
-nav#app .smash-button {
-    background-color: rgb(33, 178, 204);
-    color: #000;
-}
-
-nav#app .smash-button:hover {
-    background-color: rgb(37, 243, 229);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
-}
-
-/* Style spécifique pour le bouton Pass */
-nav#app .pass-button {
-    background-color: rgb(33, 178, 204);
-    color: #000;
-}
-
-nav#app .pass-button:hover {
-    background-color: rgb(37, 243, 229);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
-}
-
-/* Style pour les boutons de fin */
-nav#app .reset-button,
-nav#app .back-button {
-    text-align: center;
-    padding: 8px 8px;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: bold;
     cursor: pointer;
+    border-radius: 3px;
     transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-    min-width: 150px;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Style pour le bouton Recommencer */
-nav#app .reset-button {
-    background-color: rgb(33, 150, 243);
-    color: rgb(229, 226, 226);
+nav#app .smash-button:hover, nav#app .pass-button:hover, nav#app .reset-button:hover, nav#app .back-button:hover {
+    filter: brightness(1.5);
 }
 
-nav#app .reset-button:hover {
-    background-color: rgb(63, 170, 255);
-    transform: translateY(-3px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
-}
-
-/* Style pour le bouton Retour à la liste */
-nav#app .back-button {
-    background-color: rgb(96, 125, 139);
-    color: rgb(229, 226, 226);
-}
-
-nav#app .back-button:hover {
-    background-color: rgb(116, 145, 159);
-    transform: translateY(-3px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+nav#app .reset-button:active,
+nav#app .back-button:active {
+    transform: scale(0.95); /* Effet de clic */
 }
 
 /* Style pour la pagination */
@@ -460,7 +440,7 @@ nav#app .back-button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Playfair", sans-serif;
+    font-family: "Merriweather", sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: rgb(255, 255, 255);
