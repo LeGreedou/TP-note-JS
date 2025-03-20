@@ -1,15 +1,11 @@
 import { getSmash } from '../services/smashService.js';
 import { clearSmash } from '../services/resetService.js'
+import { hideDetails } from './detailView.js';
 
-export async function loadSmash(hideDetails = true) {
+export async function loadSmash() {
     const smash = getSmash();
-    
+    hideDetails()
     const app = document.getElementById('app');
-
-    if (hideDetails) {
-        const details = document.getElementById('details');
-        details.innerHTML = '';
-    }
 
     app.innerHTML = `
     <div class="header">

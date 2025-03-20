@@ -1,16 +1,11 @@
 import { getPass } from '../services/passService.js';
 import { clearPass } from '../services/resetService.js'
+import { hideDetails } from './detailView.js';
 
-export async function loadPass(hideDetails = true) {
+export async function loadPass() {
     const pass = getPass();
-    
+    hideDetails()
     const app = document.getElementById('app');
-
-    if (hideDetails) {
-        const details = document.getElementById('details');
-        details.innerHTML = '';
-    }
-
     app.innerHTML = `
     <div class="header">
         <h1>Liste des Personnages Passed</h1>

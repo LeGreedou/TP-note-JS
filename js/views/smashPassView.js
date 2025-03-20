@@ -1,11 +1,13 @@
 import { getPersonnages } from '../provider.js';
 import { addSmash } from '../services/smashService.js';
 import { addPass } from '../services/passService.js';
+import { hideDetails } from './detailView.js';
 
 let currentIndex = 0;
 let personnages = [];
 
 export async function loadSmashPass() {
+    hideDetails()
     const details = document.getElementById('details');
     details.innerHTML = '';
     

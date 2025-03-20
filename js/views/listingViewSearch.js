@@ -1,10 +1,12 @@
 import { getPersonnages, getSearch } from '../provider.js';
+import { hideDetails } from './detailView.js';
 
 export async function loadListingSearch() {
     const searchInput = document.getElementById('recherche');
     const filteredPersos = await getSearch(searchInput.value);
     const app = document.getElementById('app');
     const details = document.getElementById('details');
+    hideDetails()
 
     details.innerHTML = '';
     if (filteredPersos.length === 0) {
@@ -19,7 +21,9 @@ export async function loadListingSearch() {
             callback: function(data, pagination) {
                 document.getElementById('perso-list').innerHTML = data.map(p =>
                     `<div class="horizontal-card" onclick="route('detail', ${p.id})">`
+                    + `<div class="image-container">`
                     + `<img src="${p.image}" alt="${p.nom}">`
+                    + `</div>`
                     + `<h2>${p.nom}</h2>`
                     + `</div>`
                 ).join('');
