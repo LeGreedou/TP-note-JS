@@ -36,13 +36,15 @@ header button:hover {
 
 main {
     display: flex;
+    width: 100%;
 }
 
-main nav {
-    flex-grow: 1;
+nav#app {
+    flex: 1;
 }
 
 #details {
+    max-width: 40vw;
     border-radius: 5px;
     margin: 20px;
     margin-top: 98px;
@@ -73,11 +75,14 @@ main nav {
     margin-bottom: 10px;
 }
 
-#app {
-    padding: 20px;
+.details-active{
+    max-width: 70vw;
+    flex-grow: 1;
 }
 
-
+.details-inactive{
+    max-width: 100vw;
+}
 
 .horizontal-card {
     background: linear-gradient(#020c3a, #030f45, #020c3a);
