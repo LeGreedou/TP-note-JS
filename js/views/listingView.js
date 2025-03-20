@@ -11,13 +11,15 @@ export async function loadListing() {
 
     $('#pagination-container').pagination({
         dataSource: persos,
-        pageSize: 10,
+        pageSize: 16,
         autoHidePrevious: true,
         autoHideNext: true,
         callback: function(data, pagination) {
             document.getElementById('perso-list').innerHTML = data.map(p =>
                 `<div class="horizontal-card" onclick="route('detail', ${p.id})">`
+                + `<div class="image-container"> `
                 + `<img src="${p.image}" alt="${p.nom}">`
+                + `</div>`
                 + `<h2>${p.nom}</h2>`
                 + `</div>`
             ).join('');
