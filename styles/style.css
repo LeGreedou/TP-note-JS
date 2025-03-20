@@ -10,7 +10,7 @@ body {
 
 header {
     background-color:#0b053c;
-    border-bottom: 4px solid rgb(125, 102, 9);
+    border-bottom: 4px solid #d6bb7f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,8 +20,8 @@ header {
 header button {
     background-color: transparent;
     border: none;
-    color : rgb(255, 215, 17);
     height: 60px;
+    color: #d4c094;
     font-size: 20px;
     font-family: "Merriweather", sans-serif;
     font-weight: 600;
@@ -86,7 +86,7 @@ nav#app {
 }
 
 #perso-list {
-    color :rgb(255, 215, 17);
+    color: #dcc289;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -347,24 +347,6 @@ nav#app .smash-button, nav#app .pass-button, nav#app .reset-button, nav#app .bac
     transition: all 0.3s ease;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-/* Style pour les boutons de fin */
-nav#app .reset-button,
-nav#app .back-button {
-    background: linear-gradient(to bottom, #1e1e1e, #2e2e2e);
-    color: #d4c094;
-    border: 2px solid #d4c094;
-    padding: 12px 24px; /* Légèrement plus grand */
-    font-size: 18px; /* Texte plus visible */
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    outline: none;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-    min-width: 180px; /* Largeur minimale pour uniformiser */
-    text-align: center;
 }
 
 nav#app .smash-button:hover, nav#app .pass-button:hover, nav#app .reset-button:hover, nav#app .back-button:hover {
