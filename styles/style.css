@@ -127,7 +127,7 @@ nav#app {
     right: 0;
     height: 100%;
     width: 50px;
-    background: linear-gradient(to right, transparent, #030f45);
+    background: linear-gradient(to right, transparent, #020c3a);
     pointer-events: none;
 }
 
@@ -364,35 +364,41 @@ nav#app .back-button:active {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
 }
 
-.paginationjs.paginationjs .paginationjs-pages li {
-    border-color: #12295b !important;
+.paginationjs-pages {
+    border: 2px solid #d4c094; 
 }
 
 .paginationjs.paginationjs .paginationjs-pages li>a {
-    color: #12295b !important;
+    color: #d4c094 ;
+    background: linear-gradient(to bottom, #1e1e1e, #2e2e2e) !important; /* Fond sombre */
 }
 
-.paginationjs.paginationjs .paginationjs-pages li>a:hover {
-    background: #123a71 !important;
-    color: rgb(229, 226, 226) !important;
+.paginationjs.paginationjs .paginationjs-pages li>a:hover { 
+    filter: brightness(1.5) !important;
 }
 
-.paginationjs.paginationjs .paginationjs-pages li.active>a {
-    background: #12295b !important;
-    color: rgb(229, 226, 226) !important;
+.paginationjs .paginationjs-pages li.active>a {
+    border: 1px solid #d4c094; 
+    background: #1e1e1e !important;
+    height: 28px !important;
+    line-height: 28px !important;
 }
 
 .paginationjs.paginationjs .paginationjs-go-button>input[type=button] {
-    background: #12295b !important;
-    border-color: #12295b !important;
+    background: #d4c094   !important;
+    border-color: #d4c094  !important;
     color: rgb(229, 226, 226) !important;
 }
 
 .paginationjs.paginationjs .paginationjs-go-button>input[type=button]:hover {
-    background-color: #123a71 !important;
+    background-color: #d4c094 !important;
+}
+
+.paginationjs-ellipsis {
+    background: linear-gradient(to bottom, #1e1e1e, #2e2e2e) !important; /* Fond sombre */
 }
 
 /* Style de la barre de progression */
