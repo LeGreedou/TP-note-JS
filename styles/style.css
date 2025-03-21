@@ -78,6 +78,7 @@ nav#app {
     font-size: 35px;
     margin-top: 0px;
     margin-bottom: 10px;
+    font-style: italic;
 }
 
 .details-active{
