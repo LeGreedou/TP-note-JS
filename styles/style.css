@@ -366,10 +366,11 @@ nav#app .action-buttons {
     margin-top: 20px;
 }
 
-nav#app .smash-button, nav#app .pass-button, nav#app .reset-button, nav#app .back-button {
+nav#app .smash-button, nav#app .pass-button, nav#app .reset-button, nav#app .back-button, #reset{
     background: linear-gradient(to bottom, #1e1e1e, #2e2e2e); /* Fond sombre */
     color: #d4c094; /* Couleur dorée */
     border: 2px solid #d4c094; /* Bordure dorée */
+    margin-bottom: 15px;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -381,7 +382,7 @@ nav#app .smash-button, nav#app .pass-button, nav#app .reset-button, nav#app .bac
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-nav#app .smash-button:hover, nav#app .pass-button:hover, nav#app .reset-button:hover, nav#app .back-button:hover {
+nav#app .smash-button:hover, nav#app .pass-button:hover, nav#app .reset-button:hover, nav#app .back-button:hover, #reset:hover {
     filter: brightness(1.5);
 }
 
@@ -448,27 +449,6 @@ nav#app .back-button:active {
     transition: width 0.3s ease-in-out;
 }
 
-#reset {
-    background-color: #ff4d4d; 
-    color: white; 
-    border: none;
-    padding: 10px 20px; 
-    margin-bottom: 20px;
-    font-size: 16px; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    transition: background-color 0.3s, transform 0.2s;
-}
-
-#reset:hover {
-    background-color: #cc0000;
-    transform: scale(1.05); 
-}
-
-#reset:active {
-    background-color: #a30000; 
-    transform: scale(0.95); 
-}
 
 #note {
     cursor: pointer;
