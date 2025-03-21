@@ -94,6 +94,13 @@
             "role": "Tank, Support"
           },
           {
+            "id": 165,
+            "nom": "Ambessa",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ambessa_0.jpg",
+            "id_region": 2,
+            "role": "Combattant, Assasin"
+          },
+          {
             "id": 6,
             "nom": "Amumu",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
@@ -136,6 +143,13 @@
             "role": "Mage"
           },
           {
+            "id": 166,
+            "nom": "Aurora",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_0.jpg",
+            "id_region": 7,
+            "role": "Mage, Assassin"
+          },
+          {
             "id": 12,
             "nom": "Azir",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg",
@@ -176,6 +190,13 @@
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
             "id_region": 7,
             "role": "Support, Tank"
+          },
+          {
+            "id": 167,
+            "nom": "Briar",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_0.jpg",
+            "id_region": 2,
+            "role": "Combattant, Assassin"
           },
           {
             "id": 18,
@@ -350,6 +371,13 @@
             "nom": "Heimerdinger",
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_0.jpg",
             "id_region": 5,
+            "role": "Mage, Support"
+          },
+          {
+            "id": 168,
+            "nom": "Hwei",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hwei_0.jpg",
+            "id_region": 1,
             "role": "Mage, Support"
           },
           {
@@ -596,6 +624,13 @@
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg",
             "id_region": 1,
             "role": "Assassin, Combattant"
+          },
+          {
+            "id": 169,
+            "nom": "Mel",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mel_0.jpg",
+            "id_region": 2,
+            "role": "Mage, Support"
           },
           {
             "id": 78,
@@ -897,6 +932,13 @@
             "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Skarner_0.jpg",
             "id_region": 8,
             "role": "Tank, Combattant"
+          },
+          {
+            "id": 170,
+            "nom": "Smolder",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Smolder_0.jpg",
+            "id_region": 12,
+            "role": "Tireur, Mage"
           },
           {
             "id": 121,
