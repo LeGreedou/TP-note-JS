@@ -4,6 +4,7 @@ import { loadListing } from './views/listingView.js';
 import { loadListingSearch } from './views/listingViewSearch.js';
 import { loadPass } from './views/passView.js';
 import { loadSmash } from './views/smashView.js';
+import { loadTierList } from './views/tierListView.js';
 
 // Ajoutez ces fonctions à la portée globale
 window.smashPersonnage = smashPersonnage;
@@ -30,6 +31,9 @@ function route(page, id) {
             break;
         case 'pass':
             loadPass();
+            break;
+        case 'tierlist':
+            loadTierList();
             break;
     }
 }

@@ -13,6 +13,10 @@ body {
     font-size : 20px; 
 }
 
+h1 {
+  color: rgb(172, 126, 33);
+}
+
 header {
     background-color:#0b053c;
     border-bottom: 4px solid #d6bb7f;
@@ -75,6 +79,7 @@ nav#app {
 
 
 #details section h1 {
+    color: white;
     font-size: 35px;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -476,4 +481,143 @@ nav#app .back-button:active {
     transform: scale(1.02); 
     filter: brightness(0.90);
     outline: 2px solid white;
+}
+
+.tier-label {
+    border: 1px solid lightgray;
+    border-radius: 0.25rem;
+    outline-color: var(--border-color);
+    padding: 0.5rem;
+    resize: none;
+    grid-column: span 2;
+  }
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  min-height: calc(var(--card-size) * 2);
+  background: var(--tier-bg-color);
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    min-height: calc(var(--card-size) * 2);
+    background: var(--tier-bg-color);
+  }
+
+:root {
+    --bg-color: #27272a;
+    --tier-bg-color: #404040;
+    --tier-control-bg-color: #262626;
+    --border-color: #0a0a0a;
+    --card-size: 75px;
+  }
+
+.img-tier {
+  width: var(--card-size);
+  aspect-ratio: 1;
+  object-fit: cover;
+  cursor: grab;
+}
+
+.img-tier:hover {
+    transform: scale(1.05); /* Effet de survol léger */
+}
+
+.img-tier.dragging {
+  opacity: 0.25;
+}
+
+.Tcontainer {
+    width: min(1200px, 80%);
+    margin: 0 auto;
+    border: 2px solid var(--border-color);
+    margin-bottom: 10px;
+}
+
+
+.tiers:empty::before {
+  content: attr(data-placeholder);
+  height: var(--card-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.875rem;
+  background: var(--tier-bg-color);
+}
+
+.tier {
+  background: var(--tier-bg-color);
+  display: flex;
+  gap: 2px;
+}
+
+.tier:not(:last-child) {
+  border-bottom: 2px solid var(--border-color);
+}
+
+.label {
+  color: rgb(0, 0, 0);
+  flex-shrink: 0;
+  width: 100px;
+  min-height: var(--card-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color, lightcoral);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1rem;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.label span {
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+.items {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.tier-list-container > h1 {
+  text-align: center;
+}
+
+.S {
+    background-color: red;
+}
+
+.A {
+    background-color: rgb(255, 68, 0);
+}
+
+.B {
+    background-color: rgb(255, 123, 0);
+}
+
+.C {
+    background-color: rgb(255, 251, 0);
+}
+
+.D {
+    background-color: rgb(81, 255, 0);
+}
+
+.Ccontainer {
+    width: min(1200px, 80%);
+    margin: 0 auto;
+    border: 2px solid var(--border-color);
+    gap: 5px;
+    background: transparent;
 }

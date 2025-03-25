@@ -8,8 +8,6 @@ let personnages = [];
 
 export async function loadSmashPass() {
     hideDetails()
-    const details = document.getElementById('details');
-    details.innerHTML = '';
     
     // Récupérer tous les personnages
     personnages = await getPersonnages();
