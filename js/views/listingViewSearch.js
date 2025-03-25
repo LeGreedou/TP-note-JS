@@ -15,7 +15,7 @@ export async function loadListingSearch() {
         app.innerHTML = `<h1>Liste des Personnages correspondant à votre recherche : ${searchInput.value}</h1><div id="perso-list"></div><div id="pagination-container"></div>`;
         $('#pagination-container').pagination({
             dataSource: filteredPersos,
-            pageSize: 7,
+            pageSize: 16,
             autoHidePrevious: true,
             autoHideNext: true,
             callback: function(data, pagination) {

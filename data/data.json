@@ -1,1252 +1,1288 @@
 {
-    "regions": [
+  "regions": [
+    {
+      "id": 1,
+      "nom": "Ionia"
+    },
+    {
+      "id": 2,
+      "nom": "Noxus"
+    },
+    {
+      "id": 3,
+      "nom": "Zaun"
+    },
+    {
+      "id": 4,
+      "nom": "Targon"
+    },
+    {
+      "id": 5,
+      "nom": "Piltover"
+    },
+    {
+      "id": 6,
+      "nom": "Îles Obscures"
+    },
+    {
+      "id": 7,
+      "nom": "Freljord"
+    },
+    {
+      "id": 8,
+      "nom": "Shurima"
+    },
+    {
+      "id": 9,
+      "nom": "Demacia"
+    },
+    {
+      "id": 10,
+      "nom": "Bandle City"
+    },
+    {
+      "id": 11,
+      "nom": "Bilgewater"
+    },
+    {
+      "id": 12,
+      "nom": "Runeterra"
+    },
+    {
+      "id": 13,
+      "nom": "Ixtal"
+    },
+    {
+      "id": 14,
+      "nom": "Le Néant"
+    }
+  ],
+  "personnages": [
+    {
+      "id": 1,
+      "nom": "Aatrox",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
+      "id_region": 8,
+      "role": "Combattant"
+    },
+    {
+      "id": 2,
+      "nom": "Ahri",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+      "id_region": 1,
+      "role": "Mage, Assassin",
+      "notes": [
         {
-            "id": 1,
-            "nom": "Ionia"
-        },
-        {
-            "id": 2,
-            "nom": "Noxus"
-        },
-        {
-            "id": 3,
-            "nom": "Zaun"
-        },
-        {
-            "id": 4,
-            "nom": "Targon"
-        },
-        {
-            "id": 5,
-            "nom": "Piltover"
-        },
-        {
-            "id": 6,
-            "nom": "Îles Obscures"
-        },
-        {
-            "id": 7,
-            "nom": "Freljord"
-        },
-        {
-            "id": 8,
-            "nom": "Shurima"
-        },
-        {
-            "id": 9,
-            "nom": "Demacia"
-        },
-        {
-            "id": 10,
-            "nom": "Bandle City"
-        },
-        {
-            "id": 11,
-            "nom": "Bilgewater"
-        },
-        {
-            "id": 12,
-            "nom": "Runeterra"
-        },
-        {
-            "id": 13,
-            "nom": "Ixtal"
-        },
-        {
-            "id": 14,
-            "nom": "Le Néant"
+          "ip": "193.49.83.4",
+          "rank": "3"
         }
-    ],
-    "personnages": [
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Akali",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+      "id_region": 1,
+      "role": "Assassin"
+    },
+    {
+      "id": 4,
+      "nom": "Akshan",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_0.jpg",
+      "id_region": 8,
+      "role": "Tireur",
+      "notes": [
         {
-            "id": 1,
-            "nom": "Aatrox",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
-            "id_region": 8,
-            "role": "Combattant"
-          },
-          {
-            "id": 2,
-            "nom": "Ahri",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
-            "id_region": 1,
-            "role": "Mage, Assassin"
-          },
-          {
-            "id": 3,
-            "nom": "Akali",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
-            "id_region": 1,
-            "role": "Assassin"
-          },
-          {
-            "id": 4,
-            "nom": "Akshan",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_0.jpg",
-            "id_region": 8,
-            "role": "Tireur"
-          },
-          {
-            "id": 5,
-            "nom": "Alistar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
-            "id_region": 9,
-            "role": "Tank, Support"
-          },
-          {
-            "id": 165,
-            "nom": "Ambessa",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ambessa_0.jpg",
-            "id_region": 2,
-            "role": "Combattant, Assasin"
-          },
-          {
-            "id": 6,
-            "nom": "Amumu",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
-            "id_region": 8,
-            "role": "Tank, Mage"
-          },
-          {
-            "id": 7,
-            "nom": "Anivia",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg",
-            "id_region": 7,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 8,
-            "nom": "Annie",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
-            "id_region": 2,
-            "role": "Mage"
-          },
-          {
-            "id": 9,
-            "nom": "Aphelios",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg",
-            "id_region": 4,
-            "role": "Tireur"
-          },
-          {
-            "id": 10,
-            "nom": "Ashe",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
-            "id_region": 7,
-            "role": "Tireur, Support"
-          },
-          {
-            "id": 11,
-            "nom": "Aurelion Sol",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
-            "id_region": 4,
-            "role": "Mage"
-          },
-          {
-            "id": 166,
-            "nom": "Aurora",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_0.jpg",
-            "id_region": 7,
-            "role": "Mage, Assassin"
-          },
-          {
-            "id": 12,
-            "nom": "Azir",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg",
-            "id_region": 8,
-            "role": "Mage, Tireur"
-          },
-          {
-            "id": 13,
-            "nom": "Bard",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
-            "id_region": 12,
-            "role": "Support, Mage"
-          },
-          {
-            "id": 14,
-            "nom": "Bel'Veth",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_0.jpg",
-            "id_region": 14,
-            "role": "Combattant"
-          },
-          {
-            "id": 15,
-            "nom": "Blitzcrank",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
-            "id_region": 5,
-            "role": "Tank, Support"
-          },
-          {
-            "id": 16,
-            "nom": "Brand",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
-            "id_region": 7,
-            "role": "Mage"
-          },
-          {
-            "id": 17,
-            "nom": "Braum",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
-            "id_region": 7,
-            "role": "Support, Tank"
-          },
-          {
-            "id": 167,
-            "nom": "Briar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_0.jpg",
-            "id_region": 2,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 18,
-            "nom": "Caitlyn",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
-            "id_region": 5,
-            "role": "Tireur"
-          },
-          {
-            "id": 19,
-            "nom": "Camille",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
-            "id_region": 5,
-            "role": "Combattant"
-          },
-          {
-            "id": 20,
-            "nom": "Cassiopeia",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_0.jpg",
-            "id_region": 2,
-            "role": "Mage"
-          },
-          {
-            "id": 21,
-            "nom": "Cho'Gath",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg",
-            "id_region": 14,
-            "role": "Tank, Mage"
-          },
-          {
-            "id": 22,
-            "nom": "Corki",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_0.jpg",
-            "id_region": 10,
-            "role": "Tireur"
-          },
-          {
-            "id": 23,
-            "nom": "Darius",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
-            "id_region": 2,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 24,
-            "nom": "Diana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
-            "id_region": 4,
-            "role": "Assassin, Mage"
-          },
-          {
-            "id": 25,
-            "nom": "Draven",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
-            "id_region": 2,
-            "role": "Tireur"
-          },
-          {
-            "id": 26,
-            "nom": "Dr. Mundo",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg",
-            "id_region": 3,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 27,
-            "nom": "Ekko",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
-            "id_region": 3,
-            "role": "Assassin, Combattant"
-          },
-          {
-            "id": 28,
-            "nom": "Elise",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg",
-            "id_region": 6,
-            "role": "Mage, Assassin"
-          },
-          {
-            "id": 29,
-            "nom": "Evelynn",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
-            "id_region": 6,
-            "role": "Assassin, Mage"
-          },
-          {
-            "id": 30,
-            "nom": "Ezreal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
-            "id_region": 5,
-            "role": "Tireur, Mage"
-          },
-          {
-            "id": 31,
-            "nom": "Fiddlesticks",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg",
-            "id_region": 12,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 32,
-            "nom": "Fiora",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
-            "id_region": 9,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 33,
-            "nom": "Fizz",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg",
-            "id_region": 11,
-            "role": "Assassin, Mage"
-          },
-          {
-            "id": 34,
-            "nom": "Galio",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg",
-            "id_region": 9,
-            "role": "Tank, Mage"
-          },
-          {
-            "id": 35,
-            "nom": "Gangplank",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_0.jpg",
-            "id_region": 11,
-            "role": "Combattant"
-          },
-          {
-            "id": 36,
-            "nom": "Garen",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
-            "id_region": 9,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 37,
-            "nom": "Gnar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg",
-            "id_region": 7,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 38,
-            "nom": "Gragas",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gragas_0.jpg",
-            "id_region": 7,
-            "role": "Mage, Tank"
-          },
-          {
-            "id": 39,
-            "nom": "Graves",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Graves_0.jpg",
-            "id_region": 11,
-            "role": "Tireur, Combattant"
-          },
-          {
-            "id": 40,
-            "nom": "Gwen",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg",
-            "id_region": 6,
-            "role": "Combattant"
-          },
-          {
-            "id": 41,
-            "nom": "Hecarim",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hecarim_0.jpg",
-            "id_region": 6,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 42,
-            "nom": "Heimerdinger",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_0.jpg",
-            "id_region": 5,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 168,
-            "nom": "Hwei",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hwei_0.jpg",
-            "id_region": 1,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 43,
-            "nom": "Illaoi",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_0.jpg",
-            "id_region": 11,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 44,
-            "nom": "Irelia",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg",
-            "id_region": 1,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 45,
-            "nom": "Ivern",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_0.jpg",
-            "id_region": 1,
-            "role": "Support, Mage"
-          },
-          {
-            "id": 46,
-            "nom": "Janna",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Janna_0.jpg",
-            "id_region": 3,
-            "role": "Support, Mage"
-          },
-          {
-            "id": 47,
-            "nom": "Jarvan IV",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/JarvanIV_0.jpg",
-            "id_region": 9,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 48,
-            "nom": "Jax",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jax_0.jpg",
-            "id_region": 8,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 49,
-            "nom": "Jayce",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jayce_0.jpg",
-            "id_region": 5,
-            "role": "Combattant, Tireur"
-          },
-          {
-            "id": 50,
-            "nom": "Jhin",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg",
-            "id_region": 1,
-            "role": "Tireur"
-          },
-          {
-            "id": 51,
-            "nom": "Jinx",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
-            "id_region": 3,
-            "role": "Tireur"
-          },
-          {
-            "id": 52,
-            "nom": "K'Santé",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/KSante_0.jpg",
-            "id_region": 8,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 53,
-            "nom": "Kai'Sa",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kaisa_0.jpg",
-            "id_region": 14,
-            "role": "Tireur, Assassin"
-          },
-          {
-            "id": 54,
-            "nom": "Kalista",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kalista_0.jpg",
-            "id_region": 6,
-            "role": "Tireur"
-          },
-          {
-            "id": 55,
-            "nom": "Karma",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Karma_0.jpg",
-            "id_region": 1,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 56,
-            "nom": "Karthus",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Karthus_0.jpg",
-            "id_region": 6,
-            "role": "Mage"
-          },
-          {
-            "id": 57,
-            "nom": "Kassadin",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kassadin_0.jpg",
-            "id_region": 14,
-            "role": "Assassin, Mage"
-          },
-          {
-            "id": 58,
-            "nom": "Katarina",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
-            "id_region": 2,
-            "role": "Assassin"
-          },
-          {
-            "id": 59,
-            "nom": "Kayle",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayle_0.jpg",
-            "id_region": 9,
-            "role": "Combattant, Support"
-          },
-          {
-            "id": 60,
-            "nom": "Kayn",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg",
-            "id_region": 2,
-            "role": "Assassin, Combattant"
-          },
-          {
-            "id": 61,
-            "nom": "Kennen",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kennen_0.jpg",
-            "id_region": 1,
-            "role": "Mage, Tireur"
-          },
-          {
-            "id": 62,
-            "nom": "Kha'Zix",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Khazix_0.jpg",
-            "id_region": 14,
-            "role": "Assassin"
-          },
-          {
-            "id": 63,
-            "nom": "Kindred",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kindred_0.jpg",
-            "id_region": 12,
-            "role": "Tireur"
-          },
-          {
-            "id": 64,
-            "nom": "Kled",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kled_0.jpg",
-            "id_region": 2,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 65,
-            "nom": "Kog'Maw",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/KogMaw_0.jpg",
-            "id_region": 14,
-            "role": "Tireur, Mage"
-          },
-          {
-            "id": 66,
-            "nom": "LeBlanc",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leblanc_0.jpg",
-            "id_region": 2,
-            "role": "Assassin, Mage"
-          },
-          {
-            "id": 67,
-            "nom": "Lee Sin",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_0.jpg",
-            "id_region": 1,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 68,
-            "nom": "Leona",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg",
-            "id_region": 4,
-            "role": "Tank, Support"
-          },
-          {
-            "id": 69,
-            "nom": "Lillia",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg",
-            "id_region": 1,
-            "role": "Combattant, Mage"
-          },
-          {
-            "id": 70,
-            "nom": "Lissandra",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lissandra_0.jpg",
-            "id_region": 7,
-            "role": "Mage"
-          },
-          {
-            "id": 71,
-            "nom": "Lucian",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_0.jpg",
-            "id_region": 9,
-            "role": "Tireur"
-          },
-          {
-            "id": 72,
-            "nom": "Lulu",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lulu_0.jpg",
-            "id_region": 10,
-            "role": "Support, Mage"
-          },
-          {
-            "id": 73,
-            "nom": "Lux",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
-            "id_region": 9,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 74,
-            "nom": "Malphite",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malphite_0.jpg",
-            "id_region": 8,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 75,
-            "nom": "Malzahar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malzahar_0.jpg",
-            "id_region": 14,
-            "role": "Mage"
-          },
-          {
-            "id": 76,
-            "nom": "Maokai",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Maokai_0.jpg",
-            "id_region": 6,
-            "role": "Tank, Mage"
-          },
-          {
-            "id": 77,
-            "nom": "Master Yi",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg",
-            "id_region": 1,
-            "role": "Assassin, Combattant"
-          },
-          {
-            "id": 169,
-            "nom": "Mel",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mel_0.jpg",
-            "id_region": 2,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 78,
-            "nom": "Milio",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Milio_0.jpg",
-            "id_region": 13,
-            "role": "Support"
-          },
-          {
-            "id": 79,
-            "nom": "Miss Fortune",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MissFortune_0.jpg",
-            "id_region": 11,
-            "role": "Tireur"
-          },
-          {
-            "id": 80,
-            "nom": "Mordekaiser",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mordekaiser_0.jpg",
-            "id_region": 2,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 81,
-            "nom": "Morgana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg",
-            "id_region": 9,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 82,
-            "nom": "Naafiri",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_0.jpg",
-            "id_region": 8,
-            "role": "Assassin"
-          },
-          {
-            "id": 83,
-            "nom": "Nami",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_0.jpg",
-            "id_region": 11,
-            "role": "Support, Mage"
-          },
-          {
-            "id": 84,
-            "nom": "Nasus",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nasus_0.jpg",
-            "id_region": 8,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 85,
-            "nom": "Nautilus",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_0.jpg",
-            "id_region": 11,
-            "role": "Tank, Support"
-          },
-          {
-            "id": 86,
-            "nom": "Neeko",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Neeko_0.jpg",
-            "id_region": 13,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 87,
-            "nom": "Nidalee",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_0.jpg",
-            "id_region": 13,
-            "role": "Assassin, Mage"
-          },
-          {
-            "id": 88,
-            "nom": "Nilah",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_0.jpg",
-            "id_region": 11,
-            "role": "Tireur, Combattant"
-          },
-          {
-            "id": 89,
-            "nom": "Nocturne",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nocturne_0.jpg",
-            "id_region": 6,
-            "role": "Assassin, Combattant"
-          },
-          {
-            "id": 90,
-            "nom": "Nunu & Willump",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nunu_0.jpg",
-            "id_region": 7,
-            "role": "Tank, Mage"
-          },
-          {
-            "id": 91,
-            "nom": "Olaf",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Olaf_0.jpg",
-            "id_region": 7,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 92,
-            "nom": "Orianna",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Orianna_0.jpg",
-            "id_region": 5,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 93,
-            "nom": "Ornn",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ornn_0.jpg",
-            "id_region": 7,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 94,
-            "nom": "Pantheon",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pantheon_0.jpg",
-            "id_region": 4,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 95,
-            "nom": "Poppy",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Poppy_0.jpg",
-            "id_region": 9,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 96,
-            "nom": "Pyke",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg",
-            "id_region": 11,
-            "role": "Support, Assassin"
-          },
-          {
-            "id": 97,
-            "nom": "Qiyana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg",
-            "id_region": 13,
-            "role": "Assassin"
-          },
-          {
-            "id": 98,
-            "nom": "Quinn",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg",
-            "id_region": 9,
-            "role": "Tireur, Assassin"
-          },
-          {
-            "id": 99,
-            "nom": "Rakan",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rakan_0.jpg",
-            "id_region": 1,
-            "role": "Support"
-          },
-          {
-            "id": 100,
-            "nom": "Rammus",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rammus_0.jpg",
-            "id_region": 8,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 101,
-            "nom": "Rek'Sai",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/RekSai_0.jpg",
-            "id_region": 14,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 102,
-            "nom": "Rell",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_0.jpg",
-            "id_region": 2,
-            "role": "Tank, Support"
-          },
-          {
-            "id": 103,
-            "nom": "Renata Glasc",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_0.jpg",
-            "id_region": 3,
-            "role": "Support, Mage"
-          },
-          {
-            "id": 104,
-            "nom": "Renekton",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renekton_0.jpg",
-            "id_region": 8,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 105,
-            "nom": "Rengar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg",
-            "id_region": 13,
-            "role": "Assassin"
-          },
-          {
-            "id": 106,
-            "nom": "Riven",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg",
-            "id_region": 2,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 107,
-            "nom": "Rumble",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rumble_0.jpg",
-            "id_region": 10,
-            "role": "Mage, Combattant"
-          },
-          {
-            "id": 108,
-            "nom": "Ryze",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg",
-            "id_region": 12,
-            "role": "Mage"
-          },
-          {
-            "id": 109,
-            "nom": "Samira",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg",
-            "id_region": 2,
-            "role": "Tireur"
-          },
-          {
-            "id": 110,
-            "nom": "Sejuani",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sejuani_0.jpg",
-            "id_region": 7,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 111,
-            "nom": "Senna",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg",
-            "id_region": 12,
-            "role": "Support, Tireur"
-          },
-          {
-            "id": 112,
-            "nom": "Seraphine",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_0.jpg",
-            "id_region": 5,
-            "role": "Mage, Support"
-          },
-          {
-            "id": 113,
-            "nom": "Sett",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg",
-            "id_region": 1,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 114,
-            "nom": "Shaco",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shaco_0.jpg",
-            "id_region": 12,
-            "role": "Assassin"
-          },
-          {
-            "id": 115,
-            "nom": "Shen",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg",
-            "id_region": 1,
-            "role": "Tank, Support"
-          },
-          {
-            "id": 116,
-            "nom": "Shyvana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg",
-            "id_region": 9,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 117,
-            "nom": "Singed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Singed_0.jpg",
-            "id_region": 3,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 118,
-            "nom": "Sion",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg",
-            "id_region": 2,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 119,
-            "nom": "Sivir",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sivir_0.jpg",
-            "id_region": 8,
-            "role": "Tireur"
-          },
-          {
-            "id": 120,
-            "nom": "Skarner",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Skarner_0.jpg",
-            "id_region": 8,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 170,
-            "nom": "Smolder",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Smolder_0.jpg",
-            "id_region": 12,
-            "role": "Tireur, Mage"
-          },
-          {
-            "id": 121,
-            "nom": "Sona",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sona_0.jpg",
-            "id_region": 9,
-            "role": "Support, Mage"
-          },
-          {
-            "id": 122,
-            "nom": "Soraka",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg",
-            "id_region": 4,
-            "role": "Support, Mage"
-          },
-          {
-            "id": 123,
-            "nom": "Swain",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Swain_0.jpg",
-            "id_region": 2,
-            "role": "Mage, Tank"
-          },
-          {
-            "id": 124,
-            "nom": "Sylas",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sylas_0.jpg",
-            "id_region": 9,
-            "role": "Mage, Combattant"
-          },
-          {
-            "id": 125,
-            "nom": "Syndra",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Syndra_0.jpg",
-            "id_region": 1,
-            "role": "Mage"
-          },
-          {
-            "id": 126,
-            "nom": "Tahm Kench",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TahmKench_0.jpg",
-            "id_region": 11,
-            "role": "Tank, Support"
-          },
-          {
-            "id": 127,
-            "nom": "Taliyah",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taliyah_0.jpg",
-            "id_region": 8,
-            "role": "Mage, Combattant"
-          },
-          {
-            "id": 128,
-            "nom": "Talon",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg",
-            "id_region": 2,
-            "role": "Assassin"
-          },
-          {
-            "id": 129,
-            "nom": "Taric",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taric_0.jpg",
-            "id_region": 4,
-            "role": "Support, Tank"
-          },
-          {
-            "id": 130,
-            "nom": "Teemo",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
-            "id_region": 10,
-            "role": "Tireur, Assassin"
-          },
-          {
-            "id": 131,
-            "nom": "Thresh",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
-            "id_region": 6,
-            "role": "Support, Tank"
-          },
-          {
-            "id": 132,
-            "nom": "Tristana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_0.jpg",
-            "id_region": 10,
-            "role": "Tireur, Assassin"
-          },
-          {
-            "id": 133,
-            "nom": "Trundle",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Trundle_0.jpg",
-            "id_region": 7,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 134,
-            "nom": "Tryndamere",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tryndamere_0.jpg",
-            "id_region": 7,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 135,
-            "nom": "Twisted Fate",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TwistedFate_0.jpg",
-            "id_region": 11,
-            "role": "Mage, Assassin"
-          },
-          {
-            "id": 136,
-            "nom": "Twitch",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Twitch_0.jpg",
-            "id_region": 3,
-            "role": "Tireur, Assassin"
-          },
-          {
-            "id": 137,
-            "nom": "Udyr",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg",
-            "id_region": 7,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 138,
-            "nom": "Urgot",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Urgot_0.jpg",
-            "id_region": 3,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 139,
-            "nom": "Varus",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg",
-            "id_region": 1,
-            "role": "Tireur, Mage"
-          },
-          {
-            "id": 140,
-            "nom": "Vayne",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg",
-            "id_region": 9,
-            "role": "Tireur, Assassin"
-          },
-          {
-            "id": 141,
-            "nom": "Veigar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg",
-            "id_region": 10,
-            "role": "Mage"
-          },
-          {
-            "id": 142,
-            "nom": "Vel'Koz",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Velkoz_0.jpg",
-            "id_region": 14,
-            "role": "Mage"
-          },
-          {
-            "id": 143,
-            "nom": "Vex",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_0.jpg",
-            "id_region": 6,
-            "role": "Mage"
-          },
-          {
-            "id": 144,
-            "nom": "Vi",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg",
-            "id_region": 5,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 145,
-            "nom": "Viego",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg",
-            "id_region": 6,
-            "role": "Assassin, Combattant"
-          },
-          {
-            "id": 146,
-            "nom": "Viktor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_0.jpg",
-            "id_region": 3,
-            "role": "Mage"
-          },
-          {
-            "id": 147,
-            "nom": "Vladimir",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladimir_0.jpg",
-            "id_region": 2,
-            "role": "Mage"
-          },
-          {
-            "id": 148,
-            "nom": "Volibear",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_0.jpg",
-            "id_region": 7,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 149,
-            "nom": "Warwick",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg",
-            "id_region": 3,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 150,
-            "nom": "Wukong",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MonkeyKing_0.jpg",
-            "id_region": 1,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 151,
-            "nom": "Xayah",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg",
-            "id_region": 1,
-            "role": "Tireur"
-          },
-          {
-            "id": 152,
-            "nom": "Xerath",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xerath_0.jpg",
-            "id_region": 8,
-            "role": "Mage"
-          },
-          {
-            "id": 153,
-            "nom": "Xin Zhao",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/XinZhao_0.jpg",
-            "id_region": 9,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 154,
-            "nom": "Yasuo",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
-            "id_region": 1,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 155,
-            "nom": "Yone",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg",
-            "id_region": 1,
-            "role": "Combattant, Assassin"
-          },
-          {
-            "id": 156,
-            "nom": "Yorick",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yorick_0.jpg",
-            "id_region": 6,
-            "role": "Combattant, Tank"
-          },
-          {
-            "id": 157,
-            "nom": "Yuumi",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg",
-            "id_region": 10,
-            "role": "Support, Mage"
-          },
-          {
-            "id": 158,
-            "nom": "Zac",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zac_0.jpg",
-            "id_region": 3,
-            "role": "Tank, Combattant"
-          },
-          {
-            "id": 159,
-            "nom": "Zed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
-            "id_region": 1,
-            "role": "Assassin"
-          },
-          {
-            "id": 160,
-            "nom": "Zeri",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg",
-            "id_region": 3,
-            "role": "Tireur"
-          },
-          {
-            "id": 161,
-            "nom": "Ziggs",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ziggs_0.jpg",
-            "id_region": 5,
-            "role": "Mage, Tireur"
-          },
-          {
-            "id": 162,
-            "nom": "Zilean",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zilean_0.jpg",
-            "id_region": 8,
-            "role": "Support, Mage"
-          },
-          {
-            "id": 163,
-            "nom": "Zoe",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zoe_0.jpg",
-            "id_region": 4,
-            "role": "Mage, Assassin"
-          },
-          {
-            "id": 164,
-            "nom": "Zyra",
-            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zyra_0.jpg",
-            "id_region": 13,
-            "role": "Mage, Support"
-          }
-    ]
+          "ip": "193.49.83.4",
+          "rank": "2"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Alistar",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
+      "id_region": 9,
+      "role": "Tank, Support",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "5"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "nom": "Ambessa",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ambessa_0.jpg",
+      "id_region": 2,
+      "role": "Combattant, Assasin",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "5"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Amumu",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
+      "id_region": 8,
+      "role": "Tank, Mage"
+    },
+    {
+      "id": 7,
+      "nom": "Anivia",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg",
+      "id_region": 7,
+      "role": "Mage, Support",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "3"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nom": "Annie",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
+      "id_region": 2,
+      "role": "Mage"
+    },
+    {
+      "id": 9,
+      "nom": "Aphelios",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg",
+      "id_region": 4,
+      "role": "Tireur",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "3"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nom": "Ashe",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+      "id_region": 7,
+      "role": "Tireur, Support"
+    },
+    {
+      "id": 11,
+      "nom": "Aurelion Sol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
+      "id_region": 4,
+      "role": "Mage"
+    },
+    {
+      "id": 166,
+      "nom": "Aurora",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_0.jpg",
+      "id_region": 7,
+      "role": "Mage, Assassin"
+    },
+    {
+      "id": 12,
+      "nom": "Azir",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg",
+      "id_region": 8,
+      "role": "Mage, Tireur"
+    },
+    {
+      "id": 13,
+      "nom": "Bard",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
+      "id_region": 12,
+      "role": "Support, Mage"
+    },
+    {
+      "id": 14,
+      "nom": "Bel'Veth",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_0.jpg",
+      "id_region": 14,
+      "role": "Combattant"
+    },
+    {
+      "id": 15,
+      "nom": "Blitzcrank",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
+      "id_region": 5,
+      "role": "Tank, Support"
+    },
+    {
+      "id": 16,
+      "nom": "Brand",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
+      "id_region": 7,
+      "role": "Mage"
+    },
+    {
+      "id": 17,
+      "nom": "Braum",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
+      "id_region": 7,
+      "role": "Support, Tank"
+    },
+    {
+      "id": 167,
+      "nom": "Briar",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_0.jpg",
+      "id_region": 2,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 18,
+      "nom": "Caitlyn",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+      "id_region": 5,
+      "role": "Tireur"
+    },
+    {
+      "id": 19,
+      "nom": "Camille",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
+      "id_region": 5,
+      "role": "Combattant"
+    },
+    {
+      "id": 20,
+      "nom": "Cassiopeia",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_0.jpg",
+      "id_region": 2,
+      "role": "Mage"
+    },
+    {
+      "id": 21,
+      "nom": "Cho'Gath",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg",
+      "id_region": 14,
+      "role": "Tank, Mage"
+    },
+    {
+      "id": 22,
+      "nom": "Corki",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_0.jpg",
+      "id_region": 10,
+      "role": "Tireur"
+    },
+    {
+      "id": 23,
+      "nom": "Darius",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+      "id_region": 2,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 24,
+      "nom": "Diana",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
+      "id_region": 4,
+      "role": "Assassin, Mage"
+    },
+    {
+      "id": 25,
+      "nom": "Draven",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
+      "id_region": 2,
+      "role": "Tireur"
+    },
+    {
+      "id": 26,
+      "nom": "Dr. Mundo",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg",
+      "id_region": 3,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 27,
+      "nom": "Ekko",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
+      "id_region": 3,
+      "role": "Assassin, Combattant"
+    },
+    {
+      "id": 28,
+      "nom": "Elise",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg",
+      "id_region": 6,
+      "role": "Mage, Assassin"
+    },
+    {
+      "id": 29,
+      "nom": "Evelynn",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
+      "id_region": 6,
+      "role": "Assassin, Mage"
+    },
+    {
+      "id": 30,
+      "nom": "Ezreal",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
+      "id_region": 5,
+      "role": "Tireur, Mage"
+    },
+    {
+      "id": 31,
+      "nom": "Fiddlesticks",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg",
+      "id_region": 12,
+      "role": "Mage, Support"
+    },
+    {
+      "id": 32,
+      "nom": "Fiora",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
+      "id_region": 9,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 33,
+      "nom": "Fizz",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg",
+      "id_region": 11,
+      "role": "Assassin, Mage"
+    },
+    {
+      "id": 34,
+      "nom": "Galio",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg",
+      "id_region": 9,
+      "role": "Tank, Mage"
+    },
+    {
+      "id": 35,
+      "nom": "Gangplank",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_0.jpg",
+      "id_region": 11,
+      "role": "Combattant"
+    },
+    {
+      "id": 36,
+      "nom": "Garen",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+      "id_region": 9,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 37,
+      "nom": "Gnar",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg",
+      "id_region": 7,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 38,
+      "nom": "Gragas",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gragas_0.jpg",
+      "id_region": 7,
+      "role": "Mage, Tank"
+    },
+    {
+      "id": 39,
+      "nom": "Graves",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Graves_0.jpg",
+      "id_region": 11,
+      "role": "Tireur, Combattant"
+    },
+    {
+      "id": 40,
+      "nom": "Gwen",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg",
+      "id_region": 6,
+      "role": "Combattant"
+    },
+    {
+      "id": 41,
+      "nom": "Hecarim",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hecarim_0.jpg",
+      "id_region": 6,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 42,
+      "nom": "Heimerdinger",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_0.jpg",
+      "id_region": 5,
+      "role": "Mage, Support"
+    },
+    {
+      "id": 168,
+      "nom": "Hwei",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hwei_0.jpg",
+      "id_region": 1,
+      "role": "Mage, Support"
+    },
+    {
+      "id": 43,
+      "nom": "Illaoi",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_0.jpg",
+      "id_region": 11,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 44,
+      "nom": "Irelia",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg",
+      "id_region": 1,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 45,
+      "nom": "Ivern",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_0.jpg",
+      "id_region": 1,
+      "role": "Support, Mage"
+    },
+    {
+      "id": 46,
+      "nom": "Janna",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Janna_0.jpg",
+      "id_region": 3,
+      "role": "Support, Mage"
+    },
+    {
+      "id": 47,
+      "nom": "Jarvan IV",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/JarvanIV_0.jpg",
+      "id_region": 9,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 48,
+      "nom": "Jax",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jax_0.jpg",
+      "id_region": 8,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 49,
+      "nom": "Jayce",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jayce_0.jpg",
+      "id_region": 5,
+      "role": "Combattant, Tireur"
+    },
+    {
+      "id": 50,
+      "nom": "Jhin",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg",
+      "id_region": 1,
+      "role": "Tireur"
+    },
+    {
+      "id": 51,
+      "nom": "Jinx",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+      "id_region": 3,
+      "role": "Tireur"
+    },
+    {
+      "id": 52,
+      "nom": "K'Santé",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/KSante_0.jpg",
+      "id_region": 8,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 53,
+      "nom": "Kai'Sa",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kaisa_0.jpg",
+      "id_region": 14,
+      "role": "Tireur, Assassin"
+    },
+    {
+      "id": 54,
+      "nom": "Kalista",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kalista_0.jpg",
+      "id_region": 6,
+      "role": "Tireur"
+    },
+    {
+      "id": 55,
+      "nom": "Karma",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Karma_0.jpg",
+      "id_region": 1,
+      "role": "Mage, Support"
+    },
+    {
+      "id": 56,
+      "nom": "Karthus",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Karthus_0.jpg",
+      "id_region": 6,
+      "role": "Mage"
+    },
+    {
+      "id": 57,
+      "nom": "Kassadin",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kassadin_0.jpg",
+      "id_region": 14,
+      "role": "Assassin, Mage"
+    },
+    {
+      "id": 58,
+      "nom": "Katarina",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
+      "id_region": 2,
+      "role": "Assassin"
+    },
+    {
+      "id": 59,
+      "nom": "Kayle",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayle_0.jpg",
+      "id_region": 9,
+      "role": "Combattant, Support"
+    },
+    {
+      "id": 60,
+      "nom": "Kayn",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg",
+      "id_region": 2,
+      "role": "Assassin, Combattant"
+    },
+    {
+      "id": 61,
+      "nom": "Kennen",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kennen_0.jpg",
+      "id_region": 1,
+      "role": "Mage, Tireur"
+    },
+    {
+      "id": 62,
+      "nom": "Kha'Zix",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Khazix_0.jpg",
+      "id_region": 14,
+      "role": "Assassin"
+    },
+    {
+      "id": 63,
+      "nom": "Kindred",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kindred_0.jpg",
+      "id_region": 12,
+      "role": "Tireur"
+    },
+    {
+      "id": 64,
+      "nom": "Kled",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kled_0.jpg",
+      "id_region": 2,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 65,
+      "nom": "Kog'Maw",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/KogMaw_0.jpg",
+      "id_region": 14,
+      "role": "Tireur, Mage"
+    },
+    {
+      "id": 66,
+      "nom": "LeBlanc",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leblanc_0.jpg",
+      "id_region": 2,
+      "role": "Assassin, Mage"
+    },
+    {
+      "id": 67,
+      "nom": "Lee Sin",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_0.jpg",
+      "id_region": 1,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 68,
+      "nom": "Leona",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg",
+      "id_region": 4,
+      "role": "Tank, Support"
+    },
+    {
+      "id": 69,
+      "nom": "Lillia",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg",
+      "id_region": 1,
+      "role": "Combattant, Mage"
+    },
+    {
+      "id": 70,
+      "nom": "Lissandra",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lissandra_0.jpg",
+      "id_region": 7,
+      "role": "Mage"
+    },
+    {
+      "id": 71,
+      "nom": "Lucian",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_0.jpg",
+      "id_region": 9,
+      "role": "Tireur"
+    },
+    {
+      "id": 72,
+      "nom": "Lulu",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lulu_0.jpg",
+      "id_region": 10,
+      "role": "Support, Mage"
+    },
+    {
+      "id": 73,
+      "nom": "Lux",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
+      "id_region": 9,
+      "role": "Mage, Support"
+    },
+    {
+      "id": 74,
+      "nom": "Malphite",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malphite_0.jpg",
+      "id_region": 8,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 75,
+      "nom": "Malzahar",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malzahar_0.jpg",
+      "id_region": 14,
+      "role": "Mage"
+    },
+    {
+      "id": 76,
+      "nom": "Maokai",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Maokai_0.jpg",
+      "id_region": 6,
+      "role": "Tank, Mage"
+    },
+    {
+      "id": 77,
+      "nom": "Master Yi",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg",
+      "id_region": 1,
+      "role": "Assassin, Combattant"
+    },
+    {
+      "id": 169,
+      "nom": "Mel",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mel_0.jpg",
+      "id_region": 2,
+      "role": "Mage, Support"
+    },
+    {
+      "id": 78,
+      "nom": "Milio",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Milio_0.jpg",
+      "id_region": 13,
+      "role": "Support"
+    },
+    {
+      "id": 79,
+      "nom": "Miss Fortune",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MissFortune_0.jpg",
+      "id_region": 11,
+      "role": "Tireur"
+    },
+    {
+      "id": 80,
+      "nom": "Mordekaiser",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mordekaiser_0.jpg",
+      "id_region": 2,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 81,
+      "nom": "Morgana",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg",
+      "id_region": 9,
+      "role": "Mage, Support"
+    },
+    {
+      "id": 82,
+      "nom": "Naafiri",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_0.jpg",
+      "id_region": 8,
+      "role": "Assassin"
+    },
+    {
+      "id": 83,
+      "nom": "Nami",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_0.jpg",
+      "id_region": 11,
+      "role": "Support, Mage"
+    },
+    {
+      "id": 84,
+      "nom": "Nasus",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nasus_0.jpg",
+      "id_region": 8,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 85,
+      "nom": "Nautilus",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_0.jpg",
+      "id_region": 11,
+      "role": "Tank, Support"
+    },
+    {
+      "id": 86,
+      "nom": "Neeko",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Neeko_0.jpg",
+      "id_region": 13,
+      "role": "Mage, Support"
+    },
+    {
+      "id": 87,
+      "nom": "Nidalee",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_0.jpg",
+      "id_region": 13,
+      "role": "Assassin, Mage"
+    },
+    {
+      "id": 88,
+      "nom": "Nilah",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_0.jpg",
+      "id_region": 11,
+      "role": "Tireur, Combattant"
+    },
+    {
+      "id": 89,
+      "nom": "Nocturne",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nocturne_0.jpg",
+      "id_region": 6,
+      "role": "Assassin, Combattant"
+    },
+    {
+      "id": 90,
+      "nom": "Nunu & Willump",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nunu_0.jpg",
+      "id_region": 7,
+      "role": "Tank, Mage"
+    },
+    {
+      "id": 91,
+      "nom": "Olaf",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Olaf_0.jpg",
+      "id_region": 7,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 92,
+      "nom": "Orianna",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Orianna_0.jpg",
+      "id_region": 5,
+      "role": "Mage, Support"
+    },
+    {
+      "id": 93,
+      "nom": "Ornn",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ornn_0.jpg",
+      "id_region": 7,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 94,
+      "nom": "Pantheon",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pantheon_0.jpg",
+      "id_region": 4,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 95,
+      "nom": "Poppy",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Poppy_0.jpg",
+      "id_region": 9,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 96,
+      "nom": "Pyke",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg",
+      "id_region": 11,
+      "role": "Support, Assassin"
+    },
+    {
+      "id": 97,
+      "nom": "Qiyana",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg",
+      "id_region": 13,
+      "role": "Assassin"
+    },
+    {
+      "id": 98,
+      "nom": "Quinn",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg",
+      "id_region": 9,
+      "role": "Tireur, Assassin"
+    },
+    {
+      "id": 99,
+      "nom": "Rakan",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rakan_0.jpg",
+      "id_region": 1,
+      "role": "Support"
+    },
+    {
+      "id": 100,
+      "nom": "Rammus",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rammus_0.jpg",
+      "id_region": 8,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 101,
+      "nom": "Rek'Sai",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/RekSai_0.jpg",
+      "id_region": 14,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 102,
+      "nom": "Rell",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_0.jpg",
+      "id_region": 2,
+      "role": "Tank, Support"
+    },
+    {
+      "id": 103,
+      "nom": "Renata Glasc",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_0.jpg",
+      "id_region": 3,
+      "role": "Support, Mage"
+    },
+    {
+      "id": 104,
+      "nom": "Renekton",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renekton_0.jpg",
+      "id_region": 8,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 105,
+      "nom": "Rengar",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg",
+      "id_region": 13,
+      "role": "Assassin"
+    },
+    {
+      "id": 106,
+      "nom": "Riven",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg",
+      "id_region": 2,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 107,
+      "nom": "Rumble",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rumble_0.jpg",
+      "id_region": 10,
+      "role": "Mage, Combattant"
+    },
+    {
+      "id": 108,
+      "nom": "Ryze",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg",
+      "id_region": 12,
+      "role": "Mage"
+    },
+    {
+      "id": 109,
+      "nom": "Samira",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg",
+      "id_region": 2,
+      "role": "Tireur"
+    },
+    {
+      "id": 110,
+      "nom": "Sejuani",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sejuani_0.jpg",
+      "id_region": 7,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 111,
+      "nom": "Senna",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg",
+      "id_region": 12,
+      "role": "Support, Tireur"
+    },
+    {
+      "id": 112,
+      "nom": "Seraphine",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_0.jpg",
+      "id_region": 5,
+      "role": "Mage, Support"
+    },
+    {
+      "id": 113,
+      "nom": "Sett",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg",
+      "id_region": 1,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 114,
+      "nom": "Shaco",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shaco_0.jpg",
+      "id_region": 12,
+      "role": "Assassin"
+    },
+    {
+      "id": 115,
+      "nom": "Shen",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg",
+      "id_region": 1,
+      "role": "Tank, Support"
+    },
+    {
+      "id": 116,
+      "nom": "Shyvana",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg",
+      "id_region": 9,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 117,
+      "nom": "Singed",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Singed_0.jpg",
+      "id_region": 3,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 118,
+      "nom": "Sion",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg",
+      "id_region": 2,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 119,
+      "nom": "Sivir",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sivir_0.jpg",
+      "id_region": 8,
+      "role": "Tireur"
+    },
+    {
+      "id": 120,
+      "nom": "Skarner",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Skarner_0.jpg",
+      "id_region": 8,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 170,
+      "nom": "Smolder",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Smolder_0.jpg",
+      "id_region": 12,
+      "role": "Tireur, Mage"
+    },
+    {
+      "id": 121,
+      "nom": "Sona",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sona_0.jpg",
+      "id_region": 9,
+      "role": "Support, Mage"
+    },
+    {
+      "id": 122,
+      "nom": "Soraka",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg",
+      "id_region": 4,
+      "role": "Support, Mage"
+    },
+    {
+      "id": 123,
+      "nom": "Swain",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Swain_0.jpg",
+      "id_region": 2,
+      "role": "Mage, Tank"
+    },
+    {
+      "id": 124,
+      "nom": "Sylas",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sylas_0.jpg",
+      "id_region": 9,
+      "role": "Mage, Combattant"
+    },
+    {
+      "id": 125,
+      "nom": "Syndra",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Syndra_0.jpg",
+      "id_region": 1,
+      "role": "Mage"
+    },
+    {
+      "id": 126,
+      "nom": "Tahm Kench",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TahmKench_0.jpg",
+      "id_region": 11,
+      "role": "Tank, Support"
+    },
+    {
+      "id": 127,
+      "nom": "Taliyah",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taliyah_0.jpg",
+      "id_region": 8,
+      "role": "Mage, Combattant"
+    },
+    {
+      "id": 128,
+      "nom": "Talon",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg",
+      "id_region": 2,
+      "role": "Assassin"
+    },
+    {
+      "id": 129,
+      "nom": "Taric",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taric_0.jpg",
+      "id_region": 4,
+      "role": "Support, Tank"
+    },
+    {
+      "id": 130,
+      "nom": "Teemo",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
+      "id_region": 10,
+      "role": "Tireur, Assassin"
+    },
+    {
+      "id": 131,
+      "nom": "Thresh",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
+      "id_region": 6,
+      "role": "Support, Tank"
+    },
+    {
+      "id": 132,
+      "nom": "Tristana",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_0.jpg",
+      "id_region": 10,
+      "role": "Tireur, Assassin"
+    },
+    {
+      "id": 133,
+      "nom": "Trundle",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Trundle_0.jpg",
+      "id_region": 7,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 134,
+      "nom": "Tryndamere",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tryndamere_0.jpg",
+      "id_region": 7,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 135,
+      "nom": "Twisted Fate",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TwistedFate_0.jpg",
+      "id_region": 11,
+      "role": "Mage, Assassin"
+    },
+    {
+      "id": 136,
+      "nom": "Twitch",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Twitch_0.jpg",
+      "id_region": 3,
+      "role": "Tireur, Assassin"
+    },
+    {
+      "id": 137,
+      "nom": "Udyr",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg",
+      "id_region": 7,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 138,
+      "nom": "Urgot",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Urgot_0.jpg",
+      "id_region": 3,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 139,
+      "nom": "Varus",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg",
+      "id_region": 1,
+      "role": "Tireur, Mage"
+    },
+    {
+      "id": 140,
+      "nom": "Vayne",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg",
+      "id_region": 9,
+      "role": "Tireur, Assassin"
+    },
+    {
+      "id": 141,
+      "nom": "Veigar",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg",
+      "id_region": 10,
+      "role": "Mage"
+    },
+    {
+      "id": 142,
+      "nom": "Vel'Koz",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Velkoz_0.jpg",
+      "id_region": 14,
+      "role": "Mage"
+    },
+    {
+      "id": 143,
+      "nom": "Vex",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_0.jpg",
+      "id_region": 6,
+      "role": "Mage"
+    },
+    {
+      "id": 144,
+      "nom": "Vi",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg",
+      "id_region": 5,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 145,
+      "nom": "Viego",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg",
+      "id_region": 6,
+      "role": "Assassin, Combattant"
+    },
+    {
+      "id": 146,
+      "nom": "Viktor",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_0.jpg",
+      "id_region": 3,
+      "role": "Mage"
+    },
+    {
+      "id": 147,
+      "nom": "Vladimir",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladimir_0.jpg",
+      "id_region": 2,
+      "role": "Mage"
+    },
+    {
+      "id": 148,
+      "nom": "Volibear",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_0.jpg",
+      "id_region": 7,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 149,
+      "nom": "Warwick",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg",
+      "id_region": 3,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 150,
+      "nom": "Wukong",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MonkeyKing_0.jpg",
+      "id_region": 1,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 151,
+      "nom": "Xayah",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg",
+      "id_region": 1,
+      "role": "Tireur"
+    },
+    {
+      "id": 152,
+      "nom": "Xerath",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xerath_0.jpg",
+      "id_region": 8,
+      "role": "Mage"
+    },
+    {
+      "id": 153,
+      "nom": "Xin Zhao",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/XinZhao_0.jpg",
+      "id_region": 9,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 154,
+      "nom": "Yasuo",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
+      "id_region": 1,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 155,
+      "nom": "Yone",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg",
+      "id_region": 1,
+      "role": "Combattant, Assassin"
+    },
+    {
+      "id": 156,
+      "nom": "Yorick",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yorick_0.jpg",
+      "id_region": 6,
+      "role": "Combattant, Tank"
+    },
+    {
+      "id": 157,
+      "nom": "Yuumi",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg",
+      "id_region": 10,
+      "role": "Support, Mage"
+    },
+    {
+      "id": 158,
+      "nom": "Zac",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zac_0.jpg",
+      "id_region": 3,
+      "role": "Tank, Combattant"
+    },
+    {
+      "id": 159,
+      "nom": "Zed",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
+      "id_region": 1,
+      "role": "Assassin"
+    },
+    {
+      "id": 160,
+      "nom": "Zeri",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg",
+      "id_region": 3,
+      "role": "Tireur"
+    },
+    {
+      "id": 161,
+      "nom": "Ziggs",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ziggs_0.jpg",
+      "id_region": 5,
+      "role": "Mage, Tireur"
+    },
+    {
+      "id": 162,
+      "nom": "Zilean",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zilean_0.jpg",
+      "id_region": 8,
+      "role": "Support, Mage"
+    },
+    {
+      "id": 163,
+      "nom": "Zoe",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zoe_0.jpg",
+      "id_region": 4,
+      "role": "Mage, Assassin"
+    },
+    {
+      "id": 164,
+      "nom": "Zyra",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zyra_0.jpg",
+      "id_region": 13,
+      "role": "Mage, Support"
+    }
+  ]
 }
