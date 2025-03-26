@@ -70,7 +70,14 @@
       "nom": "Ahri",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
       "id_region": 1,
-      "role": "Mage, Assassin"
+
+      "role": "Mage, Assassin",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "3"
+        }
+      ]
     },
     {
       "id": 3,
@@ -87,12 +94,8 @@
       "role": "Tireur",
       "notes": [
         {
-          "ip": "2a02:8440:260a:bd5a:1c4f:1843:18e3:5e2a",
-          "rank": "B"
-        },
-        {
-          "ip": "2a04:cec0:f000:9332:c03a:2466:bf22:2e0a",
-          "rank": "C"
+          "ip": "193.49.83.4",
+          "rank": "2"
         }
       ]
     },
@@ -104,8 +107,8 @@
       "role": "Tank, Support",
       "notes": [
         {
-          "ip": "2a04:cec0:f000:9332:c03a:2466:bf22:2e0a",
-          "rank": "B"
+          "ip": "193.49.83.4",
+          "rank": "5"
         }
       ]
     },
@@ -114,20 +117,20 @@
       "nom": "Ambessa",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ambessa_0.jpg",
       "id_region": 2,
-      "role": "Combattant, Assasin"
+      "role": "Combattant, Assasin",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "5"
+        }
+      ]
     },
     {
       "id": 6,
       "nom": "Amumu",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
       "id_region": 8,
-      "role": "Tank, Mage",
-      "notes": [
-        {
-          "ip": "2a04:cec0:f000:9332:c03a:2466:bf22:2e0a",
-          "rank": "S"
-        }
-      ]
+      "role": "Tank, Mage"
     },
     {
       "id": 7,
@@ -137,12 +140,8 @@
       "role": "Mage, Support",
       "notes": [
         {
-          "ip": "2a02:8440:260a:bd5a:1c4f:1843:18e3:5e2a",
-          "rank": "B"
-        },
-        {
-          "ip": "2a04:cec0:f000:9332:c03a:2466:bf22:2e0a",
-          "rank": "B"
+          "ip": "193.49.83.4",
+          "rank": "3"
         }
       ]
     },
@@ -151,13 +150,7 @@
       "nom": "Annie",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
       "id_region": 2,
-      "role": "Mage",
-      "notes": [
-        {
-          "ip": "2a02:8440:260a:bd5a:1c4f:1843:18e3:5e2a",
-          "rank": "D"
-        }
-      ]
+      "role": "Mage"
     },
     {
       "id": 9,
@@ -167,12 +160,8 @@
       "role": "Tireur",
       "notes": [
         {
-          "ip": "2a02:8440:260a:bd5a:1c4f:1843:18e3:5e2a",
-          "rank": "S"
-        },
-        {
-          "ip": "2a04:cec0:f000:9332:c03a:2466:bf22:2e0a",
-          "rank": "A"
+          "ip": "193.49.83.4",
+          "rank": "3"
         }
       ]
     },
@@ -181,39 +170,21 @@
       "nom": "Ashe",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
       "id_region": 7,
-      "role": "Tireur, Support",
-      "notes": [
-        {
-          "ip": "2a04:cec0:f000:9332:c03a:2466:bf22:2e0a",
-          "rank": "C"
-        }
-      ]
+      "role": "Tireur, Support"
     },
     {
       "id": 11,
       "nom": "Aurelion Sol",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
       "id_region": 4,
-      "role": "Mage",
-      "notes": [
-        {
-          "ip": "2a04:cec0:f000:9332:c03a:2466:bf22:2e0a",
-          "rank": "C"
-        }
-      ]
+      "role": "Mage"
     },
     {
       "id": 166,
       "nom": "Aurora",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_0.jpg",
       "id_region": 7,
-      "role": "Mage, Assassin",
-      "notes": [
-        {
-          "ip": "2a04:cec0:f000:9332:c03a:2466:bf22:2e0a",
-          "rank": "D"
-        }
-      ]
+      "role": "Mage, Assassin"
     },
     {
       "id": 12,
@@ -227,13 +198,7 @@
       "nom": "Bard",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
       "id_region": 12,
-      "role": "Support, Mage",
-      "notes": [
-        {
-          "ip": "2a04:cec0:f000:9332:c03a:2466:bf22:2e0a",
-          "rank": "D"
-        }
-      ]
+      "role": "Support, Mage"
     },
     {
       "id": 14,
@@ -254,13 +219,7 @@
       "nom": "Brand",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
       "id_region": 7,
-      "role": "Mage",
-      "notes": [
-        {
-          "ip": "2a02:8440:260a:bd5a:1c4f:1843:18e3:5e2a",
-          "rank": "C"
-        }
-      ]
+      "role": "Mage"
     },
     {
       "id": 17,
@@ -281,13 +240,7 @@
       "nom": "Caitlyn",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
       "id_region": 5,
-      "role": "Tireur",
-      "notes": [
-        {
-          "ip": "2a04:cec0:f000:9332:c03a:2466:bf22:2e0a",
-          "rank": "A"
-        }
-      ]
+      "role": "Tireur"
     },
     {
       "id": 19,

@@ -1,7 +1,7 @@
 import { getRegion, getPersonnage } from '../provider.js';
 import { isSmashable, toggleSmash } from '../services/smashService.js';
 import { isPassable, togglePass } from '../services/passService.js';
-import { initializeRankSelection } from '../services/notesService.js';
+import { initializeRankSelection, addRank } from '../services/notesService.js';
 
 export async function loadDetail(id) {
     let perso = await getPersonnage(id);

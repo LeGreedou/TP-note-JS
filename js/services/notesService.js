@@ -65,6 +65,7 @@ export async function removeRank(id) {
     });
 }
 
+
 export async function initializeRankSelection(id) {
     const rankDropdown = document.getElementById("note");
     if (!rankDropdown) return;
