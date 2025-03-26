@@ -1,13 +1,11 @@
 import { getPersonnages } from '../provider.js';
 import { hideDetails } from './detailView.js'; 
-
-const characterPlacements = {};
+import { addRank } from '../services/notesService.js';
 
 export async function loadTierList() {
     hideDetails();
     
     const personnages = await getPersonnages();
-    
     await displayTierList(personnages);
     initDraggables();
 }
@@ -47,27 +45,28 @@ const handleDrop = (event) => {
     const tierLabel = tierLabelElement ? tierLabelElement.textContent : 'Unknown';
     
     const characterId = draggedImage.dataset.characterId;
-    console.log(`Character ${characterId} dropped in tier ${tierLabel}`);
-    
-    characterPlacements[characterId] = tierLabel;
+    addRank(characterId, tierLabel);
+
+    // Ensure the image is in the correct tier container
+    tierContainer.appendChild(draggedImage);
 };
 
 const initDraggables = () => {
-    const cardsContainer = document.querySelector(".cards");
-    const images = cardsContainer.querySelectorAll("img");
+    const allImages = document.querySelectorAll(".img-tier");
 
-    images.forEach((img) => {
+    allImages.forEach((img) => {
         img.draggable = true;
 
         img.addEventListener("dragstart", (e) => {
-            images.forEach(otherImg => otherImg.classList.remove("dragging"));
+            allImages.forEach(otherImg => otherImg.classList.remove("dragging"));
             img.classList.add("dragging");
         });
 
         img.addEventListener("dragend", () => img.classList.remove("dragging"));
 
         img.addEventListener("dblclick", () => {
-            if (img.parentElement !== cardsContainer) {
+            const cardsContainer = document.querySelector(".cards");
+            if (img.parentElement.closest('.tier')) {
                 cardsContainer.appendChild(img);
                 cardsContainer.scrollLeft = cardsContainer.scrollWidth;
             }
@@ -77,7 +76,9 @@ const initDraggables = () => {
 
 async function displayTierList(personnages) {
     const app = document.getElementById('app');
-    app.innerHTML = `
+    
+    // Prepare the tiers HTML
+    const tiersHTML = `
         <div class="tier-list-container">
         <h1>TierList</h1>
         <div class="tiers Tcontainer">
@@ -88,7 +89,7 @@ async function displayTierList(personnages) {
           <div class="tier"><div class="label D" contenteditable="true"><span>D</span></div><div class="items"></div></div>
         </div>
         <div class="cards Ccontainer">
-            ${personnages.map(personnage => `
+            ${personnages.filter(p => !p.notes || p.notes.length === 0).map(personnage => `
                 <img 
                     src="${personnage.image}" 
                     class="img-tier" 
@@ -101,12 +102,46 @@ async function displayTierList(personnages) {
     </div>
     `;
 
+    app.innerHTML = tiersHTML;
+
+    // Place characters with existing notes in their respective tiers
+    const tiersMap = {
+        'S': document.querySelector('.tier .label.S + .items'),
+        'A': document.querySelector('.tier .label.A + .items'),
+        'B': document.querySelector('.tier .label.B + .items'),
+        'C': document.querySelector('.tier .label.C + .items'),
+        'D': document.querySelector('.tier .label.D + .items')
+    };
+
+    personnages.forEach(personnage => {
+        if (personnage.notes && personnage.notes.length > 0) {
+            const latestNote = personnage.notes[personnage.notes.length - 1];
+            const tierContainer = tiersMap[latestNote.rank];
+            
+            if (tierContainer) {
+                const img = document.createElement('img');
+                img.src = personnage.image;
+                img.alt = personnage.nom;
+                img.classList.add('img-tier');
+                img.setAttribute('data-character-id', personnage.id);
+                img.draggable = true;
+                
+                tierContainer.appendChild(img);
+            }
+        }
+    });
+
+    // Add drag and drop listeners to ALL tier item containers
     document.querySelectorAll(".tier .items").forEach(itemsContainer => {
         itemsContainer.addEventListener("dragover", handleDragover);
         itemsContainer.addEventListener("drop", handleDrop);
     });
 
-    return characterPlacements;
+    // Re-initialize draggables to add event listeners to ALL images
+    initDraggables();
 }
 
-export { characterPlacements };
+export async function getRankedCharacters() {
+    const personnages = await getPersonnages();
+    return personnages.filter(personnage => personnage.notes && personnage.notes.length > 0);
+}

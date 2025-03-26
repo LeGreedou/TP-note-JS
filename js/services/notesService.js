@@ -1,5 +1,6 @@
 import { getPersonnage } from '../provider.js';
 import { hideDetails } from '../views/detailView.js';
+import { ENDPOINT } from '../config.js';
 
 async function getUserIP() {
     try {
@@ -13,31 +14,38 @@ async function getUserIP() {
 }
 
 export async function addRank(id, rank) {
-    const notes = JSON.parse(localStorage.getItem('notes')) || [];
-    const personnage = await getPersonnage(id);
     const userIP = await getUserIP();
-    
     if (!userIP) return;
 
-    let existingEntry = notes.find(note => note.id === personnage.id && note.ip === userIP);
+    const personnage = await getPersonnage(id);
+    if (!personnage) return;
+
+    if (!personnage.notes) {
+        personnage.notes = [];
+    }
+
+    const existingEntry = personnage.notes.find(note => note.ip === userIP);
     if (existingEntry) {
         existingEntry.rank = rank;
     } else {
-        notes.push({ id: personnage.id, rank, ip: userIP });
+        personnage.notes.push({ ip: userIP, rank });
     }
-    
-    localStorage.setItem('notes', JSON.stringify(notes));
-}
 
-export function getRanks() {
-    return JSON.parse(localStorage.getItem('notes')) || [];
+    await fetch(`${ENDPOINT}/personnages/${id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ notes: personnage.notes }),
+    });
 }
 
 export async function getRank(id) {
     const userIP = await getUserIP();
     if (!userIP) return null;
 
-    const note = getRanks().find(note => note.id === id && note.ip === userIP);
+    const personnage = await getPersonnage(id);
+    if (!personnage || !personnage.notes) return null;
+
+    const note = personnage.notes.find(note => note.ip === userIP);
     return note ? note.rank : null;
 }
 
@@ -45,24 +53,16 @@ export async function removeRank(id) {
     const userIP = await getUserIP();
     if (!userIP) return;
 
-    const notes = getRanks().filter(note => !(note.id === id && note.ip === userIP));
-    localStorage.setItem('notes', JSON.stringify(notes));
-}
+    const personnage = await getPersonnage(id);
+    if (!personnage || !personnage.notes) return;
 
-export async function toggleRank(id, rank) {
-    const currentRank = await getRank(id);
-    if (currentRank !== null) {
-        await removeRank(id);
-        document.getElementById("rank-logo").classList.remove("filled");
+    personnage.notes = personnage.notes.filter(note => note.ip !== userIP);
 
-        if (document.getElementById(id)) {
-            document.getElementById(id).remove();
-            hideDetails();
-        }
-    } else {
-        document.getElementById("rank-logo").classList.add("filled");
-        await addRank(id, rank);
-    }
+    await fetch(`${ENDPOINT}/personnages/${id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ notes: personnage.notes }),
+    });
 }
 
 export async function initializeRankSelection(id) {
