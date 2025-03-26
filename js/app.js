@@ -4,6 +4,8 @@ import { loadListing } from './views/listingView.js';
 import { loadListingSearch } from './views/listingViewSearch.js';
 import { loadPass } from './views/passView.js';
 import { loadSmash } from './views/smashView.js';
+import { loadRegions } from './views/regionsView.js';
+import { loadDetailRegions } from './views/listingRegionsView.js';
 
 // Ajoutez ces fonctions à la portée globale
 window.smashPersonnage = smashPersonnage;
@@ -30,6 +32,12 @@ function route(page, id) {
             break;
         case 'pass':
             loadPass();
+            break;
+        case 'regions':
+            loadRegions();
+            break;
+        case 'listingRegions':
+            loadDetailRegions(id);
             break;
     }
 }

@@ -35,3 +35,7 @@ export async function getSearch(search) {
     return characters;
 }
 
+export async function getPersonnesByRegion(regionId) {
+    const response = await fetch(`${ENDPOINT}/personnages/?id_region=${regionId}`)
+    return response.json();
+}
