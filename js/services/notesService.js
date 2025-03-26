@@ -1,4 +1,5 @@
 import { getPersonnage } from '../provider.js';
+import { hideDetails } from '../views/detailView.js';
 import { ENDPOINT } from '../config.js';
 
 async function getUserIP() {

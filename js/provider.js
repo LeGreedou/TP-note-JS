@@ -6,7 +6,7 @@ import Region from "./models/region.js";
 export async function getPersonnages() {
     const response = await fetch(`${ENDPOINT}/personnages`);
     const data = await response.json();
-    const characters = data.map(c => new Champion(c.id, c.nom, c.image, c.region, c.role));
+    const characters = data.map(c => new Champion(c.id, c.nom, c.image, c.region, c.role, c.notes));
     return characters;
 }
 
@@ -35,3 +35,7 @@ export async function getSearch(search) {
     return characters;
 }
 
+export async function getRank() {
+    const personnages = await getPersonnage();
+    return personnages.filter(personnage => personnage.notes && personnage.notes.length > 0);
+}

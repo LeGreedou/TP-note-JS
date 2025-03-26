@@ -11,25 +11,24 @@ export async function loadDetail(id) {
     document.getElementById("app").classList.add("details-active")
 
     document.getElementById("details").innerHTML = 
-    `<span onclick="route('listing');" class='close-button material-symbols-rounded'>close</span>
-    <img src="${perso.image}">
-    <section id='infos'>
-    <h1>${perso.nom}</h1>
-    <div class="button-container">
-    <button id="smash-button" type="button">Smash<span id="smash-logo" class='material-symbols-rounded'>favorite</span></button>
-    <button id="pass-button" type="button">Pass<span id="pass-logo" class='material-symbols-rounded'>do_not_disturb_on</span></button>
-    <strong><label for="note">Rank : </label></strong>
-    <select id="note" name="note" required>
-    <option id="option" value="0">...</option>
-    <option id="option" value="1">S</option>
-    <option id="option" value="2">A</option>
-    <option id="option" value="3">B</option>
-    <option id="option" value="4">C</option>
-    <option id="option" value="5">D</option>
-    </select></div>
-    <p><strong>Region:</strong> ${await region.nom}</p>
-    <p><strong>Roles:</strong> ${await perso.role}</p>
-    </section>`;
+    `<span onclick="route('listing');" class='close-button material-symbols-rounded'>close</span>`
+    + `<img src="${perso.image}">`
+    + "<section id='infos'>"
+    + `<h1>${perso.nom}</h1>`
+    + `<div class="button-container">`
+    + `<button id="smash-button" type="button">Smash<span id="smash-logo" class='material-symbols-rounded'>favorite</span></button>`
+    + `<button id="pass-button" type="button">Pass<span id="pass-logo" class='material-symbols-rounded'>do_not_disturb_on</span></button>`
+    + `<strong><label for="note">Rank : </label></strong>`
+    + `<select id="note" name="note" required>`
+    + `<option id="option" value="S">S</option>`
+    + `<option id="option" value="A">A</option>`
+    + `<option id="option" value="B">B</option>`
+    + `<option id="option" value="C">C</option>`
+    + `<option id="option" value="D">D</option>`
+    + `</select></div>`
+    + `<p><strong>Region:</strong> ${(await getRegion(perso.id_region)).nom}</p>`
+    + `<p><strong>Roles:</strong> ${await perso.role}</p>`
+    + "</section>";
 
     document.getElementById("infos").style.background = region.background;
     document.getElementById("details").style.background = region.background;
