@@ -12,7 +12,7 @@ export async function loadDetail(id) {
 
     document.getElementById("details").innerHTML = 
     `<span onclick="route('listing');" class='close-button material-symbols-rounded'>close</span>
-    <img src="${perso.image}">
+    <img src="${perso.image}" loading="lazy">
     <section id='infos'>
     <h1>${perso.nom}</h1>
     <div class="button-container">

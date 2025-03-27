@@ -18,7 +18,7 @@ export async function loadListing() {
             document.getElementById('perso-list').innerHTML = data.map(p =>
                 `<div class="horizontal-card" onclick="route('detail', ${p.id})">
                 <div class="image-container"> 
-                <img src="${p.image}" alt="${p.nom}">
+                <img src="${p.image}" alt="${p.nom}" loading="lazy">
                 </div>
                 <h2>${p.nom}</h2>
                 </div>`

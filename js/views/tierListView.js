@@ -94,6 +94,7 @@ async function displayTierList(personnages) {
                     alt="${personnage.nom}" 
                     data-character-id="${personnage.id}" 
                     draggable="true" 
+                    loading="lazy"
                 />
             `).join('')}
         </div>
@@ -119,6 +120,7 @@ async function displayTierList(personnages) {
                 const img = document.createElement('img');
                 img.src = personnage.image;
                 img.alt = personnage.nom;
+                img.loading = "lazy";
                 img.classList.add('img-tier');
                 img.setAttribute('data-character-id', personnage.id);
                 img.draggable = true;

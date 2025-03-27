@@ -67,7 +67,7 @@
       "notes": [
         {
           "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
-          "rank": "D"
+          "rank": "S"
         }
       ]
     },
@@ -255,7 +255,13 @@
       "nom": "Blitzcrank",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
       "id_region": 5,
-      "role": "Tank, Support"
+      "role": "Tank, Support",
+      "notes": [
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 16,
@@ -465,7 +471,13 @@
       "nom": "Illaoi",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_0.jpg",
       "id_region": 11,
-      "role": "Combattant, Tank"
+      "role": "Combattant, Tank",
+      "notes": [
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "C"
+        }
+      ]
     },
     {
       "id": 44,
@@ -892,7 +904,13 @@
       "nom": "Renata Glasc",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_0.jpg",
       "id_region": 3,
-      "role": "Support, Mage"
+      "role": "Support, Mage",
+      "notes": [
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "S"
+        }
+      ]
     },
     {
       "id": 104,
@@ -990,7 +1008,13 @@
       "nom": "Singed",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Singed_0.jpg",
       "id_region": 3,
-      "role": "Tank, Combattant"
+      "role": "Tank, Combattant",
+      "notes": [
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "B"
+        }
+      ]
     },
     {
       "id": 118,
