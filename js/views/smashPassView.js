@@ -25,7 +25,7 @@ function displayCurrentPersonnage() {
                 <h1>Smash or Pass</h1>
                 <div class="character-card">
                     <section>    
-                        <img src="${personnage.image}" alt="${personnage.nom}">
+                        <img src="${personnage.image}" alt="${personnage.nom}" loading="lazy">
                         <h2>${personnage.nom}</h2>
                     </section>
                     <section> 
