@@ -63,19 +63,28 @@
       "nom": "Aatrox",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
       "id_region": 8,
-      "role": "Combattant"
+      "role": "Combattant",
+      "notes": [
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 2,
       "nom": "Ahri",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
       "id_region": 1,
-
       "role": "Mage, Assassin",
       "notes": [
         {
           "ip": "193.49.83.4",
           "rank": "3"
+        },
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "A"
         }
       ]
     },
@@ -84,7 +93,13 @@
       "nom": "Akali",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
       "id_region": 1,
-      "role": "Assassin"
+      "role": "Assassin",
+      "notes": [
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "S"
+        }
+      ]
     },
     {
       "id": 4,
@@ -122,6 +137,10 @@
         {
           "ip": "193.49.83.4",
           "rank": "5"
+        },
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "C"
         }
       ]
     },
@@ -130,7 +149,13 @@
       "nom": "Amumu",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
       "id_region": 8,
-      "role": "Tank, Mage"
+      "role": "Tank, Mage",
+      "notes": [
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "A"
+        }
+      ]
     },
     {
       "id": 7,
@@ -170,7 +195,13 @@
       "nom": "Ashe",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
       "id_region": 7,
-      "role": "Tireur, Support"
+      "role": "Tireur, Support",
+      "notes": [
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "B"
+        }
+      ]
     },
     {
       "id": 11,
@@ -184,7 +215,13 @@
       "nom": "Aurora",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_0.jpg",
       "id_region": 7,
-      "role": "Mage, Assassin"
+      "role": "Mage, Assassin",
+      "notes": [
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 12,
@@ -205,7 +242,13 @@
       "nom": "Bel'Veth",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_0.jpg",
       "id_region": 14,
-      "role": "Combattant"
+      "role": "Combattant",
+      "notes": [
+        {
+          "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
+          "rank": "A"
+        }
+      ]
     },
     {
       "id": 15,
