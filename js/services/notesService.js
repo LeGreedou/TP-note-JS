@@ -64,6 +64,21 @@ export async function removeRank(id) {
     });
 }
 
+export async function getAverageRank(id) {
+    const personnage = await getPersonnage(id);
+    if (!personnage || !personnage.notes || personnage.notes.length === 0) return "Pas encore de note";
+
+    const rankToNumber = { "S": 5, "A": 4, "B": 3, "C": 2, "D": 1 };
+    const validRanks = personnage.notes.map(note => rankToNumber[note.rank] || Number(note.rank)).filter(rank => !isNaN(rank));
+    if (validRanks.length === 0) return "Pas encore de note";
+
+    const total = validRanks.reduce((sum, rank) => sum + rank, 0);
+    const average = Math.ceil(total / validRanks.length);
+
+    const numberToRank = { 5: "S", 4: "A", 3: "B", 2: "C", 1: "D" };
+    return numberToRank[average] || "Pas encore de note";
+}
+
 
 export async function initializeRankSelection(id) {
     const rankDropdown = document.getElementById("note");

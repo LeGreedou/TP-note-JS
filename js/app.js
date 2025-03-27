@@ -6,12 +6,10 @@ import { loadPass } from './views/passView.js';
 import { loadSmash } from './views/smashView.js';
 import { loadTierList } from './views/tierListView.js';
 
-// Ajoutez ces fonctions à la portée globale
 window.smashPersonnage = smashPersonnage;
 window.passPersonnage = passPersonnage;
 window.resetSmashPass = resetSmashPass;
 
-// Dans votre fonction de routage, ajoutez ces cases
 function route(page, id) {
     switch(page) {
         case 'listing':
@@ -38,6 +36,5 @@ function route(page, id) {
     }
 }
 
-// Rendez la fonction route disponible globalement
 window.route = route;
 route("listing")

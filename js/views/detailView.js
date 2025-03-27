@@ -1,7 +1,7 @@
 import { getRegion, getPersonnage } from '../provider.js';
 import { isSmashable, toggleSmash } from '../services/smashService.js';
 import { isPassable, togglePass } from '../services/passService.js';
-import { initializeRankSelection, addRank } from '../services/notesService.js';
+import { initializeRankSelection, getAverageRank } from '../services/notesService.js';
 
 export async function loadDetail(id) {
     let perso = await getPersonnage(id);
@@ -27,6 +27,7 @@ export async function loadDetail(id) {
     <option id="option" value="C">C</option>
     <option id="option" value="D">D</option>
     </select></div>
+    <p><strong>Note moyenne :</strong> ${await getAverageRank(id)}</p>
     <p><strong>Region :</strong> ${await region.nom}</p>
     <p><strong>Roles :</strong> ${await perso.role}</p>
     </section>`;
