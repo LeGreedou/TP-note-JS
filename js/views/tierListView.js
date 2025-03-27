@@ -47,7 +47,6 @@ const handleDrop = (event) => {
     const characterId = draggedImage.dataset.characterId;
     addRank(characterId, tierLabel);
 
-    // Ensure the image is in the correct tier container
     tierContainer.appendChild(draggedImage);
 };
 
@@ -77,7 +76,6 @@ const initDraggables = () => {
 async function displayTierList(personnages) {
     const app = document.getElementById('app');
     
-    // Prepare the tiers HTML
     const tiersHTML = `
         <div class="tier-list-container">
         <h1>TierList</h1>
@@ -104,7 +102,6 @@ async function displayTierList(personnages) {
 
     app.innerHTML = tiersHTML;
 
-    // Place characters with existing notes in their respective tiers
     const tiersMap = {
         'S': document.querySelector('.tier .label.S + .items'),
         'A': document.querySelector('.tier .label.A + .items'),
@@ -131,13 +128,11 @@ async function displayTierList(personnages) {
         }
     });
 
-    // Add drag and drop listeners to ALL tier item containers
     document.querySelectorAll(".tier .items").forEach(itemsContainer => {
         itemsContainer.addEventListener("dragover", handleDragover);
         itemsContainer.addEventListener("drop", handleDrop);
     });
 
-    // Re-initialize draggables to add event listeners to ALL images
     initDraggables();
 }
 

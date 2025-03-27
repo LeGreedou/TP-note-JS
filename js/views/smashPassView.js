@@ -8,11 +8,7 @@ let personnages = [];
 
 export async function loadSmashPass() {
     hideDetails()
-    
-    // Récupérer tous les personnages
     personnages = await getPersonnages();
-    
-    // Afficher le premier personnage
     displayCurrentPersonnage();
 }
 

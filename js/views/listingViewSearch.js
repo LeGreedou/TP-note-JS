@@ -20,12 +20,12 @@ export async function loadListingSearch() {
             autoHideNext: true,
             callback: function(data, pagination) {
                 document.getElementById('perso-list').innerHTML = data.map(p =>
-                    `<div class="horizontal-card" onclick="route('detail', ${p.id})">`
-                    + `<div class="image-container">`
-                    + `<img src="${p.image}" alt="${p.nom}">`
-                    + `</div>`
-                    + `<h2>${p.nom}</h2>`
-                    + `</div>`
+                    `<div class="horizontal-card" onclick="route('detail', ${p.id})">
+                    <div class="image-container">
+                    <img src="${p.image}" alt="${p.nom}">
+                    </div>
+                    <h2>${p.nom}</h2>
+                    </div>`
                 ).join('');
             }
         });
