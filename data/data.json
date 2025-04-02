@@ -68,6 +68,10 @@
         {
           "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
           "rank": "S"
+        },
+        {
+          "ip": "193.49.83.4",
+          "rank": "C"
         }
       ]
     },
@@ -80,7 +84,7 @@
       "notes": [
         {
           "ip": "193.49.83.4",
-          "rank": "B"
+          "rank": "A"
         },
         {
           "ip": "2a01:cb0a:9864:41d3:f8a2:6fd:21d4:1ff8",
@@ -110,7 +114,7 @@
       "notes": [
         {
           "ip": "193.49.83.4",
-          "rank": "A"
+          "rank": "0"
         }
       ]
     },
@@ -166,7 +170,7 @@
       "notes": [
         {
           "ip": "193.49.83.4",
-          "rank": "3"
+          "rank": "C"
         }
       ]
     },
@@ -186,7 +190,7 @@
       "notes": [
         {
           "ip": "193.49.83.4",
-          "rank": "3"
+          "rank": "B"
         }
       ]
     },
@@ -235,7 +239,13 @@
       "nom": "Bard",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
       "id_region": 12,
-      "role": "Support, Mage"
+      "role": "Support, Mage",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 14,
@@ -268,49 +278,91 @@
       "nom": "Brand",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
       "id_region": 7,
-      "role": "Mage"
+      "role": "Mage",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 17,
       "nom": "Braum",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
       "id_region": 7,
-      "role": "Support, Tank"
+      "role": "Support, Tank",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 167,
       "nom": "Briar",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_0.jpg",
       "id_region": 2,
-      "role": "Combattant, Assassin"
+      "role": "Combattant, Assassin",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 18,
       "nom": "Caitlyn",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
       "id_region": 5,
-      "role": "Tireur"
+      "role": "Tireur",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 19,
       "nom": "Camille",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
       "id_region": 5,
-      "role": "Combattant"
+      "role": "Combattant",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 20,
       "nom": "Cassiopeia",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_0.jpg",
       "id_region": 2,
-      "role": "Mage"
+      "role": "Mage",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 21,
       "nom": "Cho'Gath",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg",
       "id_region": 14,
-      "role": "Tank, Mage"
+      "role": "Tank, Mage",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 22,
@@ -324,56 +376,104 @@
       "nom": "Darius",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
       "id_region": 2,
-      "role": "Combattant, Tank"
+      "role": "Combattant, Tank",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 24,
       "nom": "Diana",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
       "id_region": 4,
-      "role": "Assassin, Mage"
+      "role": "Assassin, Mage",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 25,
       "nom": "Draven",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
       "id_region": 2,
-      "role": "Tireur"
+      "role": "Tireur",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 26,
       "nom": "Dr. Mundo",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg",
       "id_region": 3,
-      "role": "Tank, Combattant"
+      "role": "Tank, Combattant",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 27,
       "nom": "Ekko",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
       "id_region": 3,
-      "role": "Assassin, Combattant"
+      "role": "Assassin, Combattant",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "B"
+        }
+      ]
     },
     {
       "id": 28,
       "nom": "Elise",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg",
       "id_region": 6,
-      "role": "Mage, Assassin"
+      "role": "Mage, Assassin",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 29,
       "nom": "Evelynn",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
       "id_region": 6,
-      "role": "Assassin, Mage"
+      "role": "Assassin, Mage",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 30,
       "nom": "Ezreal",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
       "id_region": 5,
-      "role": "Tireur, Mage"
+      "role": "Tireur, Mage",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 31,
@@ -387,14 +487,26 @@
       "nom": "Fiora",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
       "id_region": 9,
-      "role": "Combattant, Assassin"
+      "role": "Combattant, Assassin",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 33,
       "nom": "Fizz",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg",
       "id_region": 11,
-      "role": "Assassin, Mage"
+      "role": "Assassin, Mage",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 34,
@@ -484,7 +596,13 @@
       "nom": "Irelia",
       "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg",
       "id_region": 1,
-      "role": "Combattant, Assassin"
+      "role": "Combattant, Assassin",
+      "notes": [
+        {
+          "ip": "193.49.83.4",
+          "rank": "D"
+        }
+      ]
     },
     {
       "id": 45,

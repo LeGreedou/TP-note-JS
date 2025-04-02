@@ -1,6 +1,7 @@
 import { getPass } from '../services/passService.js';
 import { clearPass } from '../services/resetService.js'
 import { hideDetails } from './detailView.js';
+import { setupLazyLoading } from './genericView.js';
 
 export async function loadPass() {
     const pass = getPass();
@@ -23,11 +24,12 @@ export async function loadPass() {
             document.getElementById('perso-list').innerHTML = data.map(p =>
                 `<div id='${p.id}' class="horizontal-card" onclick="route('detail', ${p.id})">
                 <div class="image-container"> 
-                <img src="${p.image}" alt="${p.nom}" loading="lazy">
+                <img data-src="${p.image}" src="data/lol-logo.jpg" alt="${p.nom}" loading="lazy">
                 </div>
                 <h2>${p.nom}</h2>
                 </div>`
             ).join('');
+            setupLazyLoading();
         }
     });
 }

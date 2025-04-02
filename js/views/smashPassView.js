@@ -2,6 +2,7 @@ import { getPersonnages } from '../provider.js';
 import { addSmash } from '../services/smashService.js';
 import { addPass } from '../services/passService.js';
 import { hideDetails } from './detailView.js';
+import { setupLazyLoading } from './genericView.js'
 
 let currentIndex = 0;
 let personnages = [];
@@ -25,7 +26,7 @@ function displayCurrentPersonnage() {
                 <h1>Smash or Pass</h1>
                 <div class="character-card">
                     <section>    
-                        <img src="${personnage.image}" alt="${personnage.nom}" loading="lazy">
+                        <img data-src="${personnage.image}" src="data/lol-logo.jpg" alt="${personnage.nom}" loading="lazy">
                         <h2>${personnage.nom}</h2>
                     </section>
                     <section> 
@@ -53,6 +54,7 @@ function displayCurrentPersonnage() {
             </div>
         `;
     }
+    setupLazyLoading();
 }
 
 // Gestion des touches du clavier
@@ -67,8 +69,6 @@ document.addEventListener('keydown', (event) => {
         }
     }
 });
-
-
 
 // Fonction pour le Smash
 export function smashPersonnage(id) {

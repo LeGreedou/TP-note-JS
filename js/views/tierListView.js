@@ -1,6 +1,7 @@
 import { getPersonnages } from '../provider.js';
 import { hideDetails } from './detailView.js'; 
 import { addRank } from '../services/notesService.js';
+import { setupLazyLoading } from './genericView.js';
 
 export async function loadTierList() {
     hideDetails();
@@ -89,7 +90,8 @@ async function displayTierList(personnages) {
         <div class="cards Ccontainer">
             ${personnages.filter(p => !p.notes || p.notes.length === 0).map(personnage => `
                 <img 
-                    src="${personnage.image}" 
+                    data-src="${personnage.image}" 
+                    src="data/lol-logo.jpg" 
                     class="img-tier" 
                     alt="${personnage.nom}" 
                     data-character-id="${personnage.id}" 
@@ -118,7 +120,8 @@ async function displayTierList(personnages) {
             
             if (tierContainer) {
                 const img = document.createElement('img');
-                img.src = personnage.image;
+                img.setAttribute('data-src', personnage.image);
+                img.setAttribute('src', 'data/lol-logo.jpg');
                 img.alt = personnage.nom;
                 img.loading = "lazy";
                 img.classList.add('img-tier');
@@ -136,6 +139,7 @@ async function displayTierList(personnages) {
     });
 
     initDraggables();
+    setupLazyLoading();
 }
 
 export async function getRankedCharacters() {
